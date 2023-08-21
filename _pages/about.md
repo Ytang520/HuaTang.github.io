@@ -13,7 +13,7 @@ redirect_from:
 I'm a third-year undergraduate student from [Industrial Engineering](https://ieem.sjtu.edu.cn/), [Shanghai Jiao Tong University (SJTU)](https://me.sjtu.edu.cn/). 
 I am broadly interested in Trustworthy AI and machine learning, with specific focus on algorithm fairness with data-centric methods and the application of machine learning in quantitative trading.
 
-My CV and transcript can be downloaded through this link [CV]({{ site.url }}/files/pdf/CV.pdf) and [Transcript]({{ site.url }}/files/pdf/Transcript.pdf).
+My CV and transcript can be downloaded through this link [CV]({{[ site.url ](https://github.com/Ytang520/HuaTang.github.io)}}/files/pdf/CV.pdf) and [Transcript]({{ [site.url ](https://github.com/Ytang520/HuaTang.github.io)}}/files/pdf/Transcript.pdf).
 
 ## **Awards**
 - 2023 2nd price in 18th National Competition of Transport Science and Technology for Students(NACTranS)
