@@ -1,3 +1,13 @@
+---
+permalink: /
+title: # ""
+excerpt: "About me"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
 I'm a third-year undergraduate student from [Industrial Engineering](https://ieem.sjtu.edu.cn/), [Shanghai Jiao Tong University (SJTU)](https://me.sjtu.edu.cn/). 
 I am broadly interested in Trustworthy AI and machine learning, with specific focus on algorithm fairness with data-centric methods and the application of machine learning in quantitative trading.
 
