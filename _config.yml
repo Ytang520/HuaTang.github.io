@@ -193,7 +193,7 @@ collections:
 
 # Defaults
 defaults:
-   # _notes
+  _notes
   - scope:
       path: ""
       type: notes
@@ -204,7 +204,7 @@ defaults:
       comments: true
       share: true
       related: true
-    _posts
+  _posts
   - scope:
       path: ""
       type: posts
