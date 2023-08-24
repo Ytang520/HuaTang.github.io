@@ -187,13 +187,13 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-  notes:
+  # notes:
     output: true
     permalink: /:collection/:path/
 
 # Defaults
 defaults:
-   _notes
+   # _notes
   - scope:
       path: ""
       type: notes
@@ -204,7 +204,7 @@ defaults:
       comments: true
       share: true
       related: true
-   # _posts
+    _posts
   - scope:
       path: ""
       type: posts
