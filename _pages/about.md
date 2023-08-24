@@ -9,8 +9,7 @@ redirect_from:
 ---
 
 
-I'm a third-year undergraduate student from [Industrial Engineering](https://ieem.sjtu.edu.cn/), [Shanghai Jiao Tong University (SJTU)](https://me.sjtu.edu.cn/). 
-I am broadly interested in Trustworthy AI and machine learning, with specific focus on algorithm fairness with data-centric methods and the application of machine learning in quantitative trading.
+I'm a third-year undergraduate student from [Shanghai Jiao Tong University (SJTU)](https://me.sjtu.edu.cn/), majoring in Industrial Engineering(IE) and minoring in Mathematics and Applied Mathematics. I am broadly interested in Trustworthy AI and machine learning, with a specific focus on algorithm fairness with data-centric methods and the application of machine learning in quantitative trading.
 
 My CV and transcript can be downloaded through this link [CV](files/CV .pdf) and [Transcript](files/Transcript.pdf).
 
