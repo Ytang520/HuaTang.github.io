@@ -87,7 +87,7 @@ author:
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : # "http://yourfullgooglescholarurl.com"
-  email            :
+  email            : "2023126578@sjtu.edu.cn"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "https://github.com/Ytang520"
   google_plus      :
   keybase          :
   instagram        :
@@ -187,24 +187,13 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-  notes:
+  posts:
     output: true
     permalink: /:collection/:path/
 
 # Defaults
 defaults:
-  _notes
-  - scope:
-      path: ""
-      type: notes
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  _posts
+  # _posts
   - scope:
       path: ""
       type: posts
