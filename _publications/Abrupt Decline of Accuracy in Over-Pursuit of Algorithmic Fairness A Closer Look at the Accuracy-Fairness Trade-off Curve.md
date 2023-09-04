@@ -1,13 +1,3 @@
----
-title: "Abrupt Decline of Accuracy in Over-Pursuit of Algorithmic Fairness: A Closer Look at the Accuracy-Fairness Trade-off Curve"
-collection: publications
-permalink: /publication/Abrupt Decline of Accuracy in Over-Pursuit of Algorithmic Fairness A Closer Look at the Accuracy-Fairness Trade-off Curve
-venue: 'Journal 1'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
----
-
-
-
 ## Abrupt Decline of Accuracy in Over-Pursuit of Algorithmic Fairness: A Closer Look at the Accuracy-Fairness Trade-off Curve
 
 In submission to AAAI2024 (The 38th Annual AAAI Conference on Artificial Intelligence)
