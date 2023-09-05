@@ -1,6 +1,6 @@
 ---
 title: 'Treatment Disparity can Achieve Higher Accuracy When Applying Group Fairness Metrics'
-date: 2023-09-05
+date: 2023-09-03
 permalink: /posts/230905-Treatment Disparity
 tags:
   - fairness
