@@ -1,12 +1,17 @@
 ---
-permalink: /
+layout: archive
 title:  "Projects"
 excerpt: # "About me"
 author_profile: true
 permalink: /projects/
 ---
 
+{% if author.googlescholar %}
+  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
+{% endif %}
 
+{% include base_path %}
 
-Feb.2022 - Feb.2023: Research on Investment Cognitive Reasoning and Intelligent Model, advised by Prof. [Chunxiao Li](https://itf.sjtu.edu.cn/show-213-9.html), Assistant Professor, Antai College of Economics and Management, Shanghai Jiao Tong University(SJTU).
-
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}
