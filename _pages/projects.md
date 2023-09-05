@@ -1,7 +1,6 @@
 ---
 layout: archive
 title:  "Projects"
-excerpt: # "About me"
 author_profile: true
 permalink: /projects/
 ---
@@ -12,6 +11,6 @@ permalink: /projects/
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
+{% for post in site.projects reversed %}
   {% include archive-single.html %}
 {% endfor %}
