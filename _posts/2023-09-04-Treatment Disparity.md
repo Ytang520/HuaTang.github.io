@@ -8,7 +8,7 @@ tags:
   - group fairness
 ---
 
-In our analysis, treatment disparity can achieve higher accuracy when applying group fairness metrics, unless it also achieves counterfactual fairness.
+In this analysis, treatment disparity can achieve higher accuracy when applying group fairness metrics, unless it also achieves counterfactual fairness.
 
 
 
