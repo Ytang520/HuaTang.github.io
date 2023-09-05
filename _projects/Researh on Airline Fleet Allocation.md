@@ -2,7 +2,7 @@
 title: "Researh on Airline Fleet Allocation"
 collection: projects
 excerpt: 'unfinished'
-permalink: /projects/Research on Investment Cognitive Reasoning and Intelligent Model
+permalink: /projects/Researh on Airline Fleet Allocation
 ---
 
 
