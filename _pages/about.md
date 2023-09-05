@@ -43,5 +43,5 @@ My CV and transcript can be downloaded through these links ([CV](files/CV .pdf) 
 # **Experience**
 
 - June.2023 - Present: Remote Research Intern: Research on algorithm fairness, advised by [Mengnan Du](https://mengnandu.com/), Assistant Professor, Department of Data Science, New Jersey Institute of Technology (NJIT).
-- Mar.2023 - Aug.2023: Research on Skeleton-based Human Motion Quality Assessment via improved ST-GCN, advised by [Yongxiang Li](https://me.sjtu.edu.cn/teacher_directory1/liyongxiang.html), Associate Professor, Department of Industrial Engineering and Management, Shanghai Jiao Tong University(SJTU).
+- Mar.2023 - Present: Research on Skeleton-based Human Motion Quality Assessment via improved ST-GCN, advised by [Yongxiang Li](https://me.sjtu.edu.cn/teacher_directory1/liyongxiang.html), Associate Professor, Department of Industrial Engineering and Management, Shanghai Jiao Tong University(SJTU).
 - Jul.2022 - May.2023: Research on high-frequency trading strategies for quantitative hedge funds, advised by [Tongxin Ren](http://www.baiyulan.org.cn/leader/15/), Assistant Professor, Student Innovation Center, Shanghai Jiao Tong University(SJTU).
