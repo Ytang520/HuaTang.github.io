@@ -8,16 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-I'm a fourth-year undergraduate student from [Shanghai Jiao Tong University (SJTU)](https://me.sjtu.edu.cn/), majoring in Industrial Engineering(IE) and minoring in Mathematics and Applied Mathematics. Currently, I am broadly interested in Trustworthy AI, optimization and the application in machine learning, specifically with a specific focus on: 
-
-- Algorithm fairness, esp. with data-centric methods
-- Transportation Planning
-- Machine learning in quantitative trading.
+I'm a fourth-year undergraduate student from [Shanghai Jiao Tong University (SJTU)](https://me.sjtu.edu.cn/), majoring in Industrial Engineering(IE) and minoring in Mathematics and Applied Mathematics. Currently, I am broadly interested in Trustworthy AI, for example algorithm fairness, machine learning and data mining.
 
 My CV and transcript can be downloaded through these links ([CV](files/CV .pdf) and [Transcript](files/Transcript.pdf)).
 
-**_I am currently looking for a PhD position in 2024Fall. Please feel free to contact me if you want to know more about me and my research interests. My email address is 2023126578@sjtu.edu.cn_**
+**_I am actively seeking a Ph.D. position for the Fall of 2024. Please feel free to contact me if there are any open Ph.D. positions available within your lab. My email address is htang2023126578@gmail.com._**
 
+I am currently looking for a Ph.D. position in 2024Fall. Please feel free to contact me if you have any open Ph.D position at your lab. My email address is htang2023126578@gmail.com_**
 
 
 # **Awards**
@@ -25,18 +22,15 @@ My CV and transcript can be downloaded through these links ([CV](files/CV .pdf) 
 - 2023 
   - 2nd Price in 18th National Competition of Transport Science and Technology for Students(NACTranS)
   - Meritorious Winner in the Mathematical Contest in Modeling
-  - 3rd Price in 4th SimpleWay Reading Scholarship
 
 - 2022 
   - 1st Price in 17th "Dongfeng Nissan Cup" Tsinghua IE Sword National Industrial Engineering Case Study Competition
   - 1st Price in 2023 "Envisioning the Future Society" Contest, held by Shanghai Jiao Tong University × DENSO (China) Investment 
-  - 3rd Price scholarship
   - 3rd Price in the China Undergraduate Mathematical Contest in Modeling (Shanghai Division)
 
 
 - 2021
   - 3rd Price in the 13th Chinese Mathematics Competitions (Shanghai Division)
-  - 3rd Price in the 38th Chinese Physics Competitions (Shanghai Division)
 
 
 
