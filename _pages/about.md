@@ -14,8 +14,6 @@ My CV and transcript can be downloaded through these links ([CV](files/CV .pdf) 
 
 **_I am actively seeking a Ph.D. position for the Fall of 2024. Please feel free to contact me if there are any open Ph.D. positions available within your lab. My email address is htang2023126578@gmail.com._**
 
-I am currently looking for a Ph.D. position in 2024Fall. Please feel free to contact me if you have any open Ph.D position at your lab. My email address is htang2023126578@gmail.com_**
-
 
 # **Awards**
 
