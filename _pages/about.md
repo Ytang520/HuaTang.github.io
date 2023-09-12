@@ -10,7 +10,7 @@ redirect_from:
 
 I'm a fourth-year undergraduate student from [Shanghai Jiao Tong University (SJTU)](https://me.sjtu.edu.cn/), majoring in Industrial Engineering(IE) and minoring in Mathematics and Applied Mathematics. Currently, I am broadly interested in Trustworthy AI, for example algorithm fairness, machine learning and data mining.
 
-My CV and transcript can be downloaded through these links ([CV](files/CV .pdf) and [Transcript](files/Transcript.pdf)).
+My CV and transcript can be downloaded through these links ([CV](files/CV_Hua_Tang.pdf) and [Transcript](files/Transcript_Hua_Tang.pdf)).
 
 **_I am actively seeking a Ph.D. position for the Fall of 2024. Please feel free to contact me if there are any open Ph.D. positions available within your lab. My email address is htang2023126578@gmail.com._**
 
