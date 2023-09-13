@@ -17,20 +17,16 @@ Code is available at ==unfinished==
 ```
 
 ## Outline:
-
-**Background**: High-frequency trading has developed rapidly in recent years. This research aims to explore the application of HFT techniques in quantitative hedge funds.
-
-**Purpose**: Through theoretical research and empirical analysis, this study investigates the application effects and suitable application scope of HFT techniques. It also compares different models to make more accurate predictions.
-
-**Methods**: This study employs the LSTM model and ARIMA model for prediction and comparative analysis based on real market data. Quantitative trading strategies are designed and backtested.
-
-**Conclusions**: According to comparative analysis, the LSTM model performs better in predicting stock price movements while the ARIMA model is more suitable for stable time series data. The two models have their own advantages and limitations and should be selected based on the practical situation.
+- **Background**: High-frequency trading has developed rapidly in recent years. This research aims to explore the application of HFT techniques in quantitative hedge funds.
+- **Purpose**: Through theoretical research and empirical analysis, this study investigates the application effects and suitable application scope of HFT techniques. It also compares different models to make more accurate predictions.
+- **Methods**: This study employs the LSTM model and ARIMA model for prediction and comparative analysis based on real market data. Quantitative trading strategies are designed and backtested.
+- **Conclusions**: According to comparative analysis, the LSTM model performs better in predicting stock price movements while the ARIMA model is more suitable for stable time series data. The two models have their own advantages and limitations and should be selected based on the practical situation.
 
 ---
 
-## Relation to the previous [project](/_projects/Research%20on%20Investment%20Cognitive%20Reasoning%20and%20Intelligent%20Model.md):
+## Relation to the previous [project](https://ytang520.github.io/HuaTang.github.io/projects/Research%20on%20Investment%20Cognitive%20Reasoning%20and%20Intelligent%20Model):
 
-The preceding project ["Research on Investment Cognitive Reasoning and Intelligent Model"](/_projects/Research%20on%20Investment%20Cognitive%20Reasoning%20and%20Intelligent%20Model.md) delved into third-generation AI, aiming to deconstruct intricate behaviors into fundamental operations for potential recombination. This concept closely aligns with the quantitative trading strategies scrutinized in hedge fund research. Furthermore, it offers valuable insights into the evolving landscape of machine learning techniques within the realm of finance and investment.
+The preceding project ["Research on Investment Cognitive Reasoning and Intelligent Model"](https://ytang520.github.io/HuaTang.github.io/projects/Research%20on%20Investment%20Cognitive%20Reasoning%20and%20Intelligent%20Modeld) delved into third-generation AI, aiming to deconstruct intricate behaviors into fundamental operations for potential recombination. This concept closely aligns with the quantitative trading strategies scrutinized in hedge fund research. Furthermore, it offers valuable insights into the evolving landscape of machine learning techniques within the realm of finance and investment.
 
 While previous research has affirmed the efficacy of machine learning methods, there exists a notable gap in the exploration of a comparative analysis between traditional time-series models and deep learning models, as well as a scarcity of research delineating their respective practical applications. This paper is dedicated to addressing this void, with the primary objective of investigating the nuances and potential use cases within this domain.
 
