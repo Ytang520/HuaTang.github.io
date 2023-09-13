@@ -24,9 +24,9 @@ Code is available at ==unfinished==
 
 ---
 
-## Relation to the previous [project](https://ytang520.github.io/HuaTang.github.io/projects/Research%20on%20Investment%20Cognitive%20Reasoning%20and%20Intelligent%20Model):
+## Relation to the [Previous Project](https://ytang520.github.io/HuaTang.github.io/projects/Research%20on%20Investment%20Cognitive%20Reasoning%20and%20Intelligent%20Model):
 
-The preceding project ["Research on Investment Cognitive Reasoning and Intelligent Model"](https://ytang520.github.io/HuaTang.github.io/projects/Research%20on%20Investment%20Cognitive%20Reasoning%20and%20Intelligent%20Modeld) delved into third-generation AI, aiming to deconstruct intricate behaviors into fundamental operations for potential recombination. This concept closely aligns with the quantitative trading strategies scrutinized in hedge fund research. Furthermore, it offers valuable insights into the evolving landscape of machine learning techniques within the realm of finance and investment.
+The preceding project ["Research on Investment Cognitive Reasoning and Intelligent Model"](https://ytang520.github.io/HuaTang.github.io/projects/Research%20on%20Investment%20Cognitive%20Reasoning%20and%20Intelligent%20Model) delved into third-generation AI, aiming to deconstruct intricate behaviors into fundamental operations for potential recombination. This concept closely aligns with the quantitative trading strategies scrutinized in hedge fund research. Furthermore, it offers valuable insights into the evolving landscape of machine learning techniques within the realm of finance and investment.
 
 While previous research has affirmed the efficacy of machine learning methods, there exists a notable gap in the exploration of a comparative analysis between traditional time-series models and deep learning models, as well as a scarcity of research delineating their respective practical applications. This paper is dedicated to addressing this void, with the primary objective of investigating the nuances and potential use cases within this domain.
 
