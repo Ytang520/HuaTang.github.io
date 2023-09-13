@@ -7,7 +7,7 @@ permalink: /projects/Research on high-frequency trading strategies for Quantitat
 
 
 Jul.2022 - May.2023: Research on high-frequency trading strategies for quantitative hedge funds, advised by [Tongxin Ren](http://www.baiyulan.org.cn/leader/15/), Assistant Professor, Student Innovation Center, Shanghai Jiao Tong University(SJTU).
-Code is available at ==unfinished==
+Code is available at [link](https://github.com/Ytang520/Research_on_High-frequency_Quantitative_Trading)
 
 
 ## Key Takeaways:
