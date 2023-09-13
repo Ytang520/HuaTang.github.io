@@ -22,16 +22,12 @@ Code is available at ==unfinished==
 - **Methods**: This study employs the LSTM model and ARIMA model for prediction and comparative analysis based on real market data. Quantitative trading strategies are designed and backtested.
 - **Conclusions**: According to comparative analysis, the LSTM model performs better in predicting stock price movements while the ARIMA model is more suitable for stable time series data. The two models have their own advantages and limitations and should be selected based on the practical situation.
 
----
 
 ## Relation to the [Previous Project](https://ytang520.github.io/HuaTang.github.io/projects/Research%20on%20Investment%20Cognitive%20Reasoning%20and%20Intelligent%20Model):
 
 The preceding project ["Research on Investment Cognitive Reasoning and Intelligent Model"](https://ytang520.github.io/HuaTang.github.io/projects/Research%20on%20Investment%20Cognitive%20Reasoning%20and%20Intelligent%20Model) delved into third-generation AI, aiming to deconstruct intricate behaviors into fundamental operations for potential recombination. This concept closely aligns with the quantitative trading strategies scrutinized in hedge fund research. Furthermore, it offers valuable insights into the evolving landscape of machine learning techniques within the realm of finance and investment.
 
-While previous research has affirmed the efficacy of machine learning methods, there exists a notable gap in the exploration of a comparative analysis between traditional time-series models and deep learning models, as well as a scarcity of research delineating their respective practical applications. This paper is dedicated to addressing this void, with the primary objective of investigating the nuances and potential use cases within this domain.
-
-
-Although there were no papers or patents produced throughout the process, it was still worthwhile because it was a period where I was firstly allowed to freely explore and discuss progress with mentors and partners. To this day, I am grateful for this experience, but my only regret is that I don't think I made the most of it (for example, further summarizing corporate experience and trying out simple experiments on my own). Maybe this is the stage that I have to go through.
+While previous works have affirmed the efficacy of machine learning methods, there exists a notable gap in the exploration of a comparative analysis between traditional time-series models and deep learning models, as well as a scarcity of research delineating their respective practical applications. This paper is dedicated to addressing this void, with the primary objective of investigating the nuances and potential use cases within this domain.
 
 ## Reflection:
 
