@@ -7,7 +7,7 @@ permalink: /projects/Researh on Airline Fleet Allocation
 
 Jun.2022 - Sept.2022: Researh on Airline Fleet Allocation, advised by Prof. [Yaoming Zhou](https://me.sjtu.edu.cn/teacher_directory1/zhouyaoming.html), Associate Professor, Department of Industrial Engineering and Management, Shanghai Jiao Tong University(SJTU).
 
-Code(negative flight deletion) is available at ==unfinished==
+Code(negative flight deletion) is available at [link](https://github.com/Ytang520/Airline_Fleet_Allocation-for_unprofitable_flight_deletion)
 
 
 ## Process:
