@@ -1,7 +1,7 @@
 ---
 title: "Researh on Airline Fleet Allocation"
 collection: projects
-excerpt: 'unfinished'
+excerpt: 'Our research focused on aiding an airline in optimizing fleet assignment and flight schedules, ultimately winning the 1st Prize in the 17th "Dongfeng Nissan Cup" Tsinghua IE Sword National Industrial Engineering Case Study Competition.'
 permalink: /projects/Researh on Airline Fleet Allocation
 ---
 
@@ -12,9 +12,7 @@ Code(negative flight deletion) is available at ==unfinished==
 
 ## Process:
 - The research aimed to help an airline optimize fleet assignment and flight schedules after a merger, in order to maximize profitability and operational efficiency. Historical booking data, fleet information and other constraints were incorporated to develop optimization models. 
-
 - The multinomial logit model was used to analyze passenger choice behavior and understand customer demand across different routes. A spatial-temporal network model was built to assign aircraft types to each flight leg, with the goal of maximizing profit. 
-
 - The optimized fleet assignment plan increased the airline's sales volume by 20.19% and revenue by 14.51% compared to pre-merger levels. Sensitivity analysis showed the model was robust to demand fluctuations. Suggestions were provided to streamline the fleet and enhance flight schedules.
 
 ## My Role: Improve the Computed Flight Schedule via Flight Deletion

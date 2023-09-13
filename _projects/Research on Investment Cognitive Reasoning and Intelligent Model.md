@@ -1,7 +1,7 @@
 ---
 title: "Research on Investment Cognitive Reasoning and Intelligent Model"
 collection: projects
-excerpt: 'unfinished'
+excerpt: 'Expert systems have limitations in knowledge acquisition, scope and maintenance. The focus has shifted to the third generation of AI that breaks down intelligence into basic operations.'
 permalink: /projects/Research on Investment Cognitive Reasoning and Intelligent Model
 ---
 

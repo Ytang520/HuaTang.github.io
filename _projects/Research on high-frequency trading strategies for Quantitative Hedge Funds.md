@@ -1,7 +1,7 @@
 ---
 title: "Research on High-Frequency Trading Strategies for Quantitative Hedge Funds"
 collection: projects
-excerpt: 'unfinished'
+excerpt: 'High-frequency trading has developed rapidly in recent years. This research aims to explore the application of HFT techniques in quantitative hedge funds.'
 permalink: /projects/Research on high-frequency trading strategies for Quantitative Hedge Funds
 ---
 
