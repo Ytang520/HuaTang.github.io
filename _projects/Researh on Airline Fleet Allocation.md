@@ -19,7 +19,7 @@ Code(negative flight deletion) is available at [link](https://github.com/Ytang52
 
 ## My Role: Improve the Computed Flight Schedule via Flight Deletion
 
-In this project, my role involves improving the computed flight schedule via flight deletion. I built a directed graph with flights as edges and airports as nodes, using flight profitability as edge weights. My optimization algorithm iteratively detected and eliminated negative cyclic routes to maximize overall profit. The main challenge was improving Dijkstra's algorithm to find the minimum negative cycle in Euler graphs with potential negative weights. My workflow included data preprocessing, negative weight cycle identification, and iterative deletion. This optimization method effectively incorporated domain constraints and objectives, guaranteeing optimal schedule profitability with theoretical proof.
+In this project, my role involves improving the computed flight schedule via flight deletion. I built a directed graph with flights as edges and airports as nodes, using flight profitability as edge weights. My optimization algorithm iteratively detected and eliminated negative cyclic routes to maximize overall profit. The main challenge was improving Dijkstra's algorithm to find the minimum negative cycle in Euler graphs with potential negative weights. My workflow included data preprocessing, negative weight cycle identification, and iterative deletion. This optimization method effectively incorporated domain constraints and objectives.
 
 
 ## Reflection
