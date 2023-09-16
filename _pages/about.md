@@ -12,7 +12,7 @@ I'm a fourth-year undergraduate student from [Shanghai Jiao Tong University (SJT
 
 My CV and transcript can be downloaded through these links ([CV](files/CV_Hua_Tang.pdf) and [Transcript](files/Transcript_Hua_Tang.pdf)).
 
-**_I am actively seeking a Ph.D. position for Fall 2024. Please feel free to contact me if there are any open Ph.D. positions available within your lab. My email address is htang2023126578@gmail.com._**
+**_I am actively seeking a Ph.D. position for Fall 2024. Please feel free to contact me if there are any open Ph.D. positions available in your lab. My email address is htang2023126578@gmail.com._**
 
 
 # **Awards**
