@@ -12,7 +12,7 @@ Jun.2022 - Sept.2022: Researh on Airline Fleet Allocation, advised by Prof. [Yao
 Code(negative flight deletion) is available at [link](https://github.com/Ytang520/Airline_Fleet_Allocation-for_unprofitable_flight_deletion)
 
 
-## Process:
+## Outline:
 - The research aimed to help an airline optimize fleet assignment and flight schedules after a merger, in order to maximize profitability and operational efficiency. Historical booking data, fleet information and other constraints were incorporated to develop optimization models. 
 - The multinomial logit model was used to analyze passenger choice behavior and understand customer demand across different routes. A spatial-temporal network model was built to assign aircraft types to each flight leg, with the goal of maximizing profit. 
 - The optimized fleet assignment plan increased the airline's sales volume by 20.19% and revenue by 14.51% compared to pre-merger levels. Sensitivity analysis showed the model was robust to demand fluctuations. Suggestions were provided to streamline the fleet and enhance flight schedules.

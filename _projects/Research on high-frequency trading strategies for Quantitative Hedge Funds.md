@@ -7,6 +7,7 @@ permalink: /projects/Research on high-frequency trading strategies for Quantitat
 
 
 Jul.2022 - May.2023: Research on high-frequency trading strategies for quantitative hedge funds, advised by [Tongxin Ren](http://www.baiyulan.org.cn/leader/15/), Assistant Professor, Student Innovation Center, Shanghai Jiao Tong University(SJTU).
+
 Source code is available at [link](https://github.com/Ytang520/Research_on_High-frequency_Quantitative_Trading)
 
 
@@ -14,7 +15,6 @@ Source code is available at [link](https://github.com/Ytang520/Research_on_High-
 - The LSTM model performed better in predicting the direction of stock price movements. The model achieved high accuracy in predicting up or down trends on the test set. This indicates LSTM networks can effectively capture nonlinear relationships and long-term dependencies in stock price time series data.
 - The ARIMA model was suitable for extracting trends and periodicities from stable time series data. The study used a novel strategy of incorporating momentum and reversal factors. This combined method comprehensively considered the complexity of the stock market while balancing accuracy and simplicity.
 - According to comparative analysis, the LSTM model is more suitable for predicting stock price movements but may overfit noisy data. The ARIMA model better handles stable time series but has poor performance on nonlinear relationships. Overall, the two models have their own applicable ranges and should be selected based on the specific situation.
-```
 
 ## Outline:
 - **Background**: High-frequency trading has developed rapidly in recent years. This research aims to explore the application of HFT techniques in quantitative hedge funds.
