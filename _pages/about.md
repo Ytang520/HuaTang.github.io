@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a fourth-year undergraduate student from [Shanghai Jiao Tong University (SJTU)](https://me.sjtu.edu.cn/), majoring in Industrial Engineering(IE) and minoring in Mathematics and Applied Mathematics. I have a strong interest in Trustworthy AI, specifically in areas such as algorithm fairness, robustness, privacy, as well as machine learning and data mining.
+I'm a fourth-year undergraduate student from [Shanghai Jiao Tong University (SJTU)](https://me.sjtu.edu.cn/), majoring in Industrial Engineering(IE) and minoring in Mathematics and Applied Mathematics. I have a strong interest in Trustworthy AI(such as algorithmic fairness, robustness and privacy), as well as machine learning and data mining.
 
 My CV and transcript can be downloaded through these links ([CV](files/CV_Hua_Tang.pdf) and [Transcript](files/Transcript_Hua_Tang.pdf)).
 
