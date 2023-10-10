@@ -1,12 +1,12 @@
 ---
-title: "Research on High-Frequency Trading Strategies for Quantitative Hedge Funds"
+title: "Empirical Strategies for High-frequency Quantitative Trading"
 collection: projects
 excerpt: 'High-frequency trading has developed rapidly in recent years. This research aims to explore the application of HFT techniques in quantitative hedge funds.'
-permalink: /projects/Research on high-frequency trading strategies for Quantitative Hedge Funds
+permalink: /projects/Empirical Strategies for High-frequency Quantitative Trading
 ---
 
 
-Jul.2022 - May.2023: Research on high-frequency trading strategies for quantitative hedge funds, advised by [Tongxin Ren](http://www.baiyulan.org.cn/leader/15/), Assistant Professor, Student Innovation Center, Shanghai Jiao Tong University(SJTU).
+Jul.2022 - May.2023: Empirical Strategies for High-frequency Quantitative Trading, advised by [Tongxin Ren](http://www.baiyulan.org.cn/leader/15/), Assistant Professor, Student Innovation Center, Shanghai Jiao Tong University(SJTU).
 
 Source code is available at [link](https://github.com/Ytang520/Research_on_High-frequency_Quantitative_Trading)
 
@@ -25,7 +25,7 @@ Source code is available at [link](https://github.com/Ytang520/Research_on_High-
 
 ## Relation to the [Previous Project](https://ytang520.github.io/HuaTang.github.io/projects/Research%20on%20Investment%20Cognitive%20Reasoning%20and%20Intelligent%20Model):
 
-The preceding project ["Research on Investment Cognitive Reasoning and Intelligent Model"](https://ytang520.github.io/HuaTang.github.io/projects/Research%20on%20Investment%20Cognitive%20Reasoning%20and%20Intelligent%20Model) delved into third-generation AI, aiming to deconstruct intricate behaviors into fundamental operations for potential recombination. This concept closely aligns with the quantitative trading strategies scrutinized in hedge fund research. Furthermore, it offers valuable insights into the evolving landscape of machine learning techniques within the realm of finance and investment.
+The preceding project ["Investment Cognitive Reasoning and Intelligent Model"](https://ytang520.github.io/HuaTang.github.io/projects/Research%20on%20Investment%20Cognitive%20Reasoning%20and%20Intelligent%20Model) delved into third-generation AI, aiming to deconstruct intricate behaviors into fundamental operations for potential recombination. This concept closely aligns with the quantitative trading strategies scrutinized in hedge fund research. Furthermore, it offers valuable insights into the evolving landscape of machine learning techniques within the realm of finance and investment.
 
 While previous works have affirmed the efficacy of machine learning methods, there exists a notable gap in the exploration of a comparative analysis between traditional time-series models and deep learning models, as well as a scarcity of research delineating their respective practical applications. This paper is dedicated to addressing this void, with the primary objective of investigating the nuances and potential use cases within this domain.
 

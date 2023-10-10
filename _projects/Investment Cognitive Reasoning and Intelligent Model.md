@@ -1,11 +1,11 @@
 ---
-title: "Research on Investment Cognitive Reasoning and Intelligent Model"
+title: "Investment Cognitive Reasoning and Intelligent Model"
 collection: projects
 excerpt: 'Expert systems have limitations in knowledge acquisition, scope and maintenance. The focus has shifted to the third generation of AI that breaks down intelligence into basic operations.'
-permalink: /projects/Research on Investment Cognitive Reasoning and Intelligent Model
+permalink: /projects/Investment Cognitive Reasoning and Intelligent Model
 ---
 
-Feb.2022 - Feb.2023: Research on Investment Cognitive Reasoning and Intelligent Model, advised by Prof. [Chunxiao Li](https://itf.sjtu.edu.cn/show-213-9.html), Assistant Professor, Antai College of Economics and Management, Shanghai Jiao Tong University(SJTU).
+Feb.2022 - Feb.2023: Investment Cognitive Reasoning and Intelligent Model, advised by Prof. [Chunxiao Li](https://itf.sjtu.edu.cn/show-213-9.html), Assistant Professor, Antai College of Economics and Management, Shanghai Jiao Tong University(SJTU).
 
 ## Outline:
 - **Background**: Expert systems have limitations in knowledge acquisition, scope and maintenance. The focus has shifted to the third generation of AI that breaks down intelligence into basic operations.

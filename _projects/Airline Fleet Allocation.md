@@ -1,11 +1,11 @@
 ---
-title: "Researh on Airline Fleet Allocation"
+title: "Airline Fleet Allocation"
 collection: projects
 excerpt: 'Our research focused on aiding an airline in optimizing fleet assignment and flight schedules, ultimately winning the 1st Prize in the 17th "Dongfeng Nissan Cup" Tsinghua IE Sword National Industrial Engineering Case Study Competition.'
-permalink: /projects/Researh on Airline Fleet Allocation
+permalink: /projects/Airline Fleet Allocation
 ---
 
-Jun.2022 - Sept.2022: Researh on Airline Fleet Allocation, advised by Prof. [Yaoming Zhou](https://me.sjtu.edu.cn/teacher_directory1/zhouyaoming.html), Associate Professor, Department of Industrial Engineering and Management, Shanghai Jiao Tong University(SJTU).
+Jun.2022 - Sept.2022: Airline Fleet Allocation, advised by Prof. [Yaoming Zhou](https://me.sjtu.edu.cn/teacher_directory1/zhouyaoming.html), Associate Professor, Department of Industrial Engineering and Management, Shanghai Jiao Tong University(SJTU).
 
 **_We won the 1st Prize in the 17th “Dongfeng Nissan Cup” Tsinghua IE Sword National Industrial Engineering Case Study Competition!_**
 
