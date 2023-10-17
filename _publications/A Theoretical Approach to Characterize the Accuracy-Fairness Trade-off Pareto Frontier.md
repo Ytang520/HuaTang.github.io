@@ -1,11 +1,9 @@
 ---
 title: "A Theoretical Approach to Characterize the Accuracy-Fairness Trade-off Pareto Frontier"
 collection: publications
-excerpt: 'This paper is dedicated to elucidating the shape of the accuracy-fairness trade-off curve. It has been submitted to The Twelfth International Conference on Learning Representations (ICLR-2024) with me as the first author.'
+excerpt: 'This paper is dedicated to elucidating the shape of the accuracy-fairness trade-off curve. It can be accessed through this link.'
 permalink: /publication/A Theoretical Approach to Characterize the Accuracy-Fairness Trade-off Pareto Frontier
 ---
-
-In submission to ICLR 2024 (The Twelfth International Conference on Learning Representations)
 
 Author : Hua Tang, Lu Cheng, Ninghao Liu, Mengnan Du
 
