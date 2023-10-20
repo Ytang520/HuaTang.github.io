@@ -1,7 +1,7 @@
 ---
 title: "A Theoretical Approach to Characterize the Accuracy-Fairness Trade-off Pareto Frontier"
 collection: publications
-excerpt: 'This paper is dedicated to elucidating the shape of the accuracy-fairness trade-off curve. It can be accessed through this link.'
+excerpt: 'This paper is dedicated to elucidating the shape of the accuracy-fairness trade-off curve. It can be accessed through this [link](https://arxiv.org/abs/2310.12785).'
 permalink: /publication/A Theoretical Approach to Characterize the Accuracy-Fairness Trade-off Pareto Frontier
 ---
 
