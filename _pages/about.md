@@ -15,23 +15,6 @@ My CV and transcript can be downloaded through these links ([CV](files/CV_Hua_Ta
 **_I am actively seeking a Ph.D. position for Fall 2024. Please feel free to contact me if there are any open Ph.D. positions available in your lab. My email address is htang2023126578@gmail.com._**
 
 
-# **Awards**
-
-- 2023 
-  - 2nd Price in 18th National Competition of Transport Science and Technology for Students(NACTranS)
-  - Meritorious Winner in the Mathematical Contest in Modeling
-
-- 2022 
-  - 1st Price in 17th "Dongfeng Nissan Cup" Tsinghua IE Sword National Industrial Engineering Case Study Competition
-  - 1st Price in 2023 "Envisioning the Future Society" Contest, held by Shanghai Jiao Tong University × DENSO (China) Investment 
-  - 3rd Price in the China Undergraduate Mathematical Contest in Modeling (Shanghai Division)
-
-
-- 2021
-  - 3rd Price in the 13th Chinese Mathematics Competitions (Shanghai Division)
-
-
-
 # **Selected Experience**
 
 - June.2023 - Present: Remote Research Intern: Theoretical Analysis on the Trade-off between Accuracy and Fairness, advised by [Mengnan Du](https://mengnandu.com/), Assistant Professor, Department of Data Science, New Jersey Institute of Technology (NJIT). **_The manuscript titled 'A Theoretical Approach to Characterize the Accuracy-Fairness Trade-off Pareto Frontier' with me as the first author can be accessed through this [link](https://arxiv.org/abs/2310.12785)_**
