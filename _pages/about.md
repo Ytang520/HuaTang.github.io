@@ -15,13 +15,12 @@ My CV and transcript can be downloaded through these links ([CV](files/CV_Hua_Ta
 My Academic Statement can be downloaded through this line ([Academic Statement](files/Academic Statement.pdf))
 
 
----
-
 ## **Two current Research Lines:**
 ### Exploring the Impact of Data Distribution Properties on Epistemic Model Performance:
   - **Ultimate Objective:** Attaining a comprehensive understanding of the transitivity between classes' power within the given data distribution.
   - **Current Focus:** Investigating the influence of data trends on the formalization of Neural Collapse.
   - **Methods:** Improved UFM + Adaptive ETF classifier
+
 ### The difference between data distributions and how it works on the aleatoric model performance
   - **Ultimate Goal:** Gaining insight into the minimum "information" (what type and what content) of the test data distribution (compared to the training data distribution) which is required for the effective and desirable techniques.
   - **Current Focus:** Analysis of the differential privacy + fairness
