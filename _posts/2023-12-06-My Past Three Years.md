@@ -1,6 +1,6 @@
 ---
 title: 'My Past Three Years'
-date: 2023-09-04
+date: 2023-12-06
 permalink: /posts/2023-12-06-My Past Three Years
 tags:
   - memory
@@ -34,3 +34,5 @@ Looking back, I had many other choices at that time, like talking to the respons
 ### Summer Research: A Fresh Life
 I am deeply grateful to Prof. Mengnan Du for his guidance throughout the summer research. Even when I doubted myself, he still believed in me. He allowed me to explore my interests and provided support when I felt lost. Beyond the growth in research skills, I learned to seek help from him and the people around me. I finally acknowledged that there were many things I could not control. There was no distinct milestone in this transformation, and upon reflection, the past blurred into a vague memory—I live a fresh life now.
 
+
+------
