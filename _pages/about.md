@@ -12,7 +12,7 @@ I'm an undergraduate student (Gap Year) from [Shanghai Jiao Tong University (SJT
 
 My CV and transcript can be downloaded through these links ([CV](files/CV_Frank(Hua)_Tang.pdf) and [Transcript](files/Transcript_Hua_Tang.pdf)).
 
-My Academic Statement can be downloaded through this line ([Academic Statement](files/Academic Statement.pdf))
+My Academic Statement can be downloaded through this line ([Academic Statement](files/Academic Statement.pdf)) (Last Update: 12/2023. I’ll update it with my recent research and studies later in December 2024.)
 
 My [blog](https://nolebase-template-smoky.vercel.app/) can be found here, where I share some research ideas, intermediate results, notes and so on. Hope that I'll update it everyday. - Edited on 2024/10/21
 
