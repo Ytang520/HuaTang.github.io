@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a fourth-year undergraduate student from [Shanghai Jiao Tong University (SJTU)](https://me.sjtu.edu.cn/), majoring in Industrial Engineering(IE) and minoring in Mathematics and Applied Mathematics. I previsouly studied Trustworthy AI (esp. algorithmic fairness), as well as LLM-related researches. I'm open to exploring other research topics.
+I'm an undergraduate student (Gap Year) from [Shanghai Jiao Tong University (SJTU)](https://me.sjtu.edu.cn/), majoring in Industrial Engineering(IE) and minoring in Mathematics and Applied Mathematics. I previsouly studied Trustworthy AI (esp. algorithmic fairness), as well as LLM-related researches. I'm open to exploring other research topics.
 
 My CV and transcript can be downloaded through these links ([CV](files/CV_Frank(Hua)_Tang.pdf) and [Transcript](files/Transcript_Hua_Tang.pdf)).
 
