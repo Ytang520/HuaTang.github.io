@@ -34,15 +34,6 @@
 }
 
 .masthead__menu {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  .greedy-nav {
-    flex: 1;
-    min-width: 0;
-  }
-
   ul {
     margin: 0;
     padding: 0;
