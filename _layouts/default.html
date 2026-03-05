@@ -25,7 +25,92 @@ layout: compress
       </footer>
     </div>
 
+    <!-- Floating Music Player -->
+    <div class="music-player">
+      <button id="music-btn" class="music-player__btn" title="Play/Pause Music" aria-label="Toggle music">
+        <i class="fas fa-music"></i>
+      </button>
+      <audio id="bg-audio" preload="none" loop>
+        <source src="{{ base_path }}/assets/audio/soundtrack_1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+
     {% include scripts.html %}
+
+    <script>
+    (function() {
+      /* ========== Dark / Light Toggle ========== */
+      var themeBtn = document.getElementById('theme-toggle');
+      function applyTheme(theme) {
+        document.documentElement.setAttribute('data-theme', theme);
+        localStorage.setItem('theme', theme);
+        if (themeBtn) {
+          themeBtn.innerHTML = theme === 'dark'
+            ? '<i class="fas fa-sun"></i>'
+            : '<i class="fas fa-moon"></i>';
+        }
+      }
+      // Init from stored preference or system
+      var stored = localStorage.getItem('theme');
+      if (stored) {
+        applyTheme(stored);
+      } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        applyTheme('dark');
+      } else {
+        applyTheme('light');
+      }
+      if (themeBtn) {
+        themeBtn.addEventListener('click', function() {
+          var current = document.documentElement.getAttribute('data-theme');
+          applyTheme(current === 'dark' ? 'light' : 'dark');
+        });
+      }
+
+      /* ========== Language Toggle ========== */
+      var langBtn = document.getElementById('lang-toggle');
+      var currentLang = localStorage.getItem('lang') || 'en';
+
+      function applyLang(lang) {
+        currentLang = lang;
+        localStorage.setItem('lang', lang);
+        var enEls = document.querySelectorAll('.lang-en');
+        var zhEls = document.querySelectorAll('.lang-zh');
+        if (lang === 'zh') {
+          enEls.forEach(function(el) { el.style.display = 'none'; });
+          zhEls.forEach(function(el) { el.style.display = ''; });
+          if (langBtn) langBtn.textContent = 'ZH';
+        } else {
+          enEls.forEach(function(el) { el.style.display = ''; });
+          zhEls.forEach(function(el) { el.style.display = 'none'; });
+          if (langBtn) langBtn.textContent = 'EN';
+        }
+      }
+      applyLang(currentLang);
+      if (langBtn) {
+        langBtn.addEventListener('click', function() {
+          applyLang(currentLang === 'en' ? 'zh' : 'en');
+        });
+      }
+
+      /* ========== Music Player ========== */
+      var musicBtn = document.getElementById('music-btn');
+      var audio = document.getElementById('bg-audio');
+      if (musicBtn && audio) {
+        musicBtn.addEventListener('click', function() {
+          if (audio.paused) {
+            audio.play();
+            musicBtn.classList.add('playing');
+          } else {
+            audio.pause();
+            musicBtn.classList.remove('playing');
+          }
+        });
+        audio.addEventListener('ended', function() {
+          musicBtn.classList.remove('playing');
+        });
+      }
+    })();
+    </script>
 
   </body>
 </html>

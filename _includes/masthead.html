@@ -16,6 +16,10 @@
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
         </ul>
+        <div class="masthead__toggles">
+          <button id="lang-toggle" class="masthead__toggle-btn" title="切换中文 / Switch to English" aria-label="Toggle language">EN</button>
+          <button id="theme-toggle" class="masthead__toggle-btn" title="Toggle dark/light mode" aria-label="Toggle dark mode"><i class="fas fa-moon"></i></button>
+        </div>
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
