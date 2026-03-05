@@ -83,14 +83,20 @@
   }
 
   img {
-    max-width: 175px;
-    border-radius: 50%;
+    max-width: 200px;
+    border-radius: 12px;
 
     @include breakpoint($large) {
       padding: 5px;
       border: 1px solid $border-color;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+      transition: box-shadow 0.3s ease, transform 0.3s ease;
+
+      &:hover {
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+        transform: translateY(-2px);
+      }
     }
-  }
 }
 
 .author__content {

@@ -14,6 +14,8 @@ body {
   color: $text-color;
   font-family: $global-font-family;
   line-height: 1.5;
+  background-color: $background-color;
+  transition: background-color 0.3s ease, color 0.3s ease;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
@@ -22,10 +24,11 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 2em 0 0.5em;
+  margin: 1.5em 0 0.5em;
   line-height: 1.2;
   font-family: $header-font-family;
   font-weight: bold;
+  transition: color 0.3s ease;
 }
 
 h1 {
