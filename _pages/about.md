@@ -56,10 +56,10 @@ Thanks for all the people who have given me assistance and feedback. I was falli
 
 ## **精选经历**
 
-- 2024年7月至今：百度研究实习生，导师 [闫凌勇](https://yanlingyong.net/)，百度高级研究员。
+- 2024年7月至今：百度研究实习生，导师 [颜令勇](https://yanlingyong.net/)，百度高级研究员。
 - 2023年6月 – 2024年4月：远程研究实习 — 预训练 LLM 用于时间序列预测与算法公平性，导师 [杜梦楠](https://mengnandu.com/)，新泽西理工学院 (NJIT) 数据科学系助理教授。
-- 2022年7月 – 2023年5月：高频量化交易的实证策略研究，导师 [任同心](http://www.baiyulan.org.cn/leader/15/)，上海交通大学学生创新中心助理教授。代码：[链接](https://github.com/Ytang520/Research_on_High-frequency_Quantitative_Trading)
-- 2023年3月 – 2023年9月：基于骨架的人体运动质量评估（改进型 ST-GCN），导师 [李永祥](https://me.sjtu.edu.cn/teacher_directory1/liyongxiang.html)，上海交通大学工业工程与管理系副教授。
+- 2022年7月 – 2023年5月：高频量化交易的实证策略研究，导师 [任桐鑫](http://www.baiyulan.org.cn/leader/15/)，上海交通大学学生创新中心助理教授。代码：[链接](https://github.com/Ytang520/Research_on_High-frequency_Quantitative_Trading)
+- 2023年3月 – 2023年9月：基于骨架的人体运动质量评估（改进型 ST-GCN），导师 [李勇祥](https://me.sjtu.edu.cn/teacher_directory1/liyongxiang.html)，上海交通大学工业工程与管理系副教授。
 - 2022年6月 – 2022年9月：航空公司机队分配优化，导师 [周耀明](https://me.sjtu.edu.cn/teacher_directory1/zhouyaoming.html) 教授，上海交通大学工业工程与管理系副教授。
 
 ## **博客 & 播客**
