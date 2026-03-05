@@ -10,7 +10,7 @@ locale                   : "Shanghai China"
 title                    : "Hua Tang"
 title_separator          : "-"
 name                     : &name "Hua Tang"
-description              : &description "Undergraduate @Industrial Engineering, Shanghai Jiao Tong University"
+description              : &description "MSc. Student @Data Science, The Chinese University of Hong Kong (Shenzhen)"
 url                      : https://ytang520.github.io/HuaTang.github.io # the base hostname & protocol for your site e.g. "https://ytang520.github.io/HuaTang.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -81,12 +81,12 @@ analytics:
 # Site Author
 author:
   name             : "Hua Tang"
-  avatar           : "Yuki.png"
-  bio              : "Undergraduate @Industrial Engineering, Shanghai Jiao Tong University"
+  avatar           : "self_image.jpg"
+  bio              : "MSc. Student @Data Science, The Chinese University of Hong Kong (Shenzhen)"
   location         : "Shanghai China"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : # "http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?user=uDetv2UAAAAJ&hl=en"
   email            : "htang2023126578@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
