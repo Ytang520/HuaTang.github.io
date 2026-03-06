@@ -310,6 +310,91 @@
   }
 }
 
+[data-theme="firework"] {
+  body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.86), rgba(255, 255, 255, 0.9)), url("../../tmp_folder/img.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #2d2d2d;
+  }
+
+  .masthead {
+    background-color: rgba(255, 255, 255, 0.92);
+    border-bottom-color: rgba(0, 0, 0, 0.08);
+  }
+
+  .greedy-nav {
+    background: rgba(255, 255, 255, 0.92);
+
+    a {
+      color: #333;
+
+      &:hover {
+        color: #d06c2e;
+      }
+    }
+
+    .visible-links a:before {
+      background: #d06c2e;
+    }
+
+    .hidden-links {
+      background: #fffaf3;
+      border-color: #f1d8be;
+
+      &:before {
+        border-color: #f1d8be transparent;
+      }
+
+      &:after {
+        border-color: #fffaf3 transparent;
+      }
+
+      a:hover {
+        color: #a65120;
+        background: #f8ebdc;
+      }
+    }
+  }
+
+  .page__footer {
+    background-color: rgba(255, 250, 243, 0.9);
+    border-top-color: rgba(0, 0, 0, 0.08);
+  }
+
+  .page,
+  .archive,
+  .sidebar,
+  .initial-content {
+    position: relative;
+    z-index: 1;
+  }
+
+  .masthead__toggle-btn {
+    color: #b55f28;
+    border-color: #e8be98;
+
+    &:hover {
+      background-color: #fff1e4;
+      color: #944618;
+      border-color: #d79058;
+    }
+  }
+
+  .music-player__btn {
+    background: rgba(255, 255, 255, 0.94);
+    border-color: #d79058;
+    color: #b55f28;
+
+    &.playing {
+      border-color: #e07932;
+      color: #e07932;
+    }
+  }
+}
+
 /* ==========================================================================
    TOGGLE BUTTONS (masthead)
    ========================================================================== */
