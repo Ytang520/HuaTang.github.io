@@ -317,31 +317,29 @@
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: #2d2d2d;
+    color: #666666;
   }
-
   .masthead {
-    background-color: rgba(255, 255, 255, 0.92);
+    background-color: transparent;
     border-bottom-color: rgba(0, 0, 0, 0.08);
   }
-
   .greedy-nav {
-    background: rgba(255, 255, 255, 0.92);
+    background: transparent;
 
     a {
-      color: #333;
+      color: #666666;
 
       &:hover {
-        color: #d06c2e;
+        color: #89b4fa;
       }
     }
 
     .visible-links a:before {
-      background: #d06c2e;
+      background: #89b4fa;
     }
 
     .hidden-links {
-      background: #fffaf3;
+      background: rgba(255, 255, 255, 0.95);
       border-color: #f1d8be;
 
       &:before {
@@ -349,21 +347,19 @@
       }
 
       &:after {
-        border-color: #fffaf3 transparent;
+        border-color: rgba(255, 255, 255, 0.95) transparent;
       }
 
       a:hover {
-        color: #a65120;
+        color: #89b4fa;
         background: #f8ebdc;
       }
     }
   }
-
   .page__footer {
-    background-color: rgba(255, 250, 243, 0.9);
+    background-color: transparent;
     border-top-color: rgba(0, 0, 0, 0.08);
   }
-
   .page,
   .archive,
   .sidebar,
