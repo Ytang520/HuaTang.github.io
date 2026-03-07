@@ -317,17 +317,23 @@
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: #666666;
+    color: #e8e8e8;
+    transition: color 0.3s ease, background-image 0.3s ease;
   }
+
   .masthead {
-    background-color: transparent;
+    background-color: transparent !important;
     border-bottom-color: rgba(0, 0, 0, 0.08);
+    transition: background-color 0.3s ease, border-color 0.3s ease;
   }
+
   .greedy-nav {
-    background: transparent;
+    background: transparent !important;
+    transition: background 0.3s ease;
 
     a {
-      color: #666666;
+      color: #e8e8e8;
+      transition: color 0.3s ease;
 
       &:hover {
         color: #89b4fa;
@@ -356,10 +362,21 @@
       }
     }
   }
+
   .page__footer {
-    background-color: transparent;
+    background-color: transparent !important;
     border-top-color: rgba(0, 0, 0, 0.08);
+    color: #e8e8e8;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
   }
+
+  .page__footer .fas,
+  .page__footer .fab,
+  .page__footer .far,
+  .page__footer .fal {
+    color: #e8e8e8;
+  }
+
   .page,
   .archive,
   .sidebar,
@@ -388,6 +405,16 @@
       border-color: #e07932;
       color: #e07932;
     }
+  }
+
+  /* Add transitions to all elements for smooth theme switching */
+  h1, h2, h3, h4, h5, h6 {
+    color: #e8e8e8;
+    transition: color 0.3s ease;
+  }
+
+  p, li, a, span, div {
+    transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
   }
 }
 
