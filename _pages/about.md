@@ -22,7 +22,7 @@ My CV can be downloaded here: [CV_en](files/CV_Hua_Tang_EN.pdf) \| [CV_zh](files
 
 ## **Selected Experience**
 
-- **July 2024 – Present**: Research Intern at Baidu. Advised by [Lingyong Yan](https://yanlingyong.net/), Senior Researcher at Baidu.
+- **July 2024 – June 2025**: Research Intern at Baidu. Advised by [Lingyong Yan](https://yanlingyong.net/), Senior Researcher at Baidu.
 - **June 2023 – April 2024**: Remote Research Intern (Pre-trained LLMs for Time Series Forecasting and Algorithmic Fairness). Advised by [Mengnan Du](https://mengnandu.com/), Assistant Professor, Department of Data Science, New Jersey Institute of Technology (NJIT).
 - **July 2022 – May 2023**: Undergraduate Researcher (Empirical Strategies for High-frequency Quantitative Trading). Advised by [Tongxin Ren](http://www.baiyulan.org.cn/leader/15/), Assistant Professor, Student Innovation Center, SJTU. Source code: [link](https://github.com/Ytang520/Research_on_High-frequency_Quantitative_Trading)
 - **March 2023 – Sept. 2023**: Undergraduate Researcher (Skeleton-based Human Motion Quality Assessment via Improved ST-GCN). Advised by [Yongxiang Li](https://me.sjtu.edu.cn/teacher_directory1/liyongxiang.html), Associate Professor, Dept. of IE & Management, SJTU.
@@ -69,7 +69,7 @@ Thank you to everyone who has offered me assistance and feedback. When I was fal
 
 ## **精选经历**
 
-- **2024年7月 – 至今**：百度研究实习生。导师：[颜令勇](https://yanlingyong.net/)，百度高级研究员。
+- **2024年7月 – 2025年6月**：百度研究实习生。导师：[颜令勇](https://yanlingyong.net/)，百度高级研究员。
 - **2023年6月 – 2024年4月**：远程研究实习（预训练 LLM 用于时间序列预测与算法公平性）。导师：[杜梦楠](https://mengnandu.com/)，新泽西理工学院 (NJIT) 数据科学系助理教授。
 - **2022年7月 – 2023年5月**：本科生研究员（高频量化交易的实证策略研究）。导师：[任桐鑫](http://www.baiyulan.org.cn/leader/15/)，上海交通大学学生创新中心助理教授。代码：[链接](https://github.com/Ytang520/Research_on_High-frequency_Quantitative_Trading)
 - **2023年3月 – 2023年9月**：本科生研究员（基于骨架的人体运动质量评估：改进型 ST-GCN）。导师：[李勇祥](https://me.sjtu.edu.cn/teacher_directory1/liyongxiang.html)，上海交通大学工业工程与管理系副教授。
