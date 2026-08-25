@@ -18,11 +18,12 @@ My primary research interests revolve around **LLM Safety and Agents**. Very rec
 
 In the past, I engaged in research on Trustworthy AI (particularly algorithmic fairness) as well as other LLM-related topics. I remain open to exploring various other research directions.
 
-My CV can be downloaded here: [CV_en](files/CV_Hua_Tang_EN.pdf) \| [CV_zh](files/CV_Hua_Tang_CN.pdf)
+My CV can be downloaded here: [CV_en](files/CV_Hua_Tang_EN.pdf) \| [CV_zh](files/CV_Hua_Tang_CN.pdf) (1-page). Longer versions: [CV_en 2-page](files/CV_Hua_Tang_EN_2p.pdf) \| [CV_zh 2-page](files/CV_Hua_Tang_CN_2p.pdf).
 
 ## **Selected Experience**
 
-- **July 2024 – June 2025**: Research Intern at Baidu. Advised by [Lingyong Yan](https://yanlingyong.net/), Senior Researcher at Baidu.
+- **April 2026 – Present**: Research Intern at Shanghai Artificial Intelligence Laboratory. Tracked frontier LLM / LLM-agent capabilities, benchmarks, and safeguards in biosecurity; built a computational-biology evaluation pipeline covering pathogenicity assessment, structural stability, and virus–receptor binding; contributed to [An Early Warning of Emerging Biosecurity Risks in Frontier LLMs](https://arxiv.org/abs/2607.18056).
+- **July 2024 – June 2025**: Research Intern at Baidu. Advised by [Lingyong Yan](https://yanlingyong.net/), Senior Researcher at Baidu. Worked on alignment data, LLM fine-tuning, and agent-based multi-turn attack research; first-authored a paper from this work.
 - **June 2023 – April 2024**: Remote Research Intern (Pre-trained LLMs for Time Series Forecasting and Algorithmic Fairness). Advised by [Mengnan Du](https://mengnandu.com/), Assistant Professor, Department of Data Science, New Jersey Institute of Technology (NJIT).
 - **July 2022 – May 2023**: Undergraduate Researcher (Empirical Strategies for High-frequency Quantitative Trading). Advised by [Tongxin Ren](http://www.baiyulan.org.cn/leader/15/), Assistant Professor, Student Innovation Center, SJTU. Source code: [link](https://github.com/Ytang520/Research_on_High-frequency_Quantitative_Trading)
 - **March 2023 – Sept. 2023**: Undergraduate Researcher (Skeleton-based Human Motion Quality Assessment via Improved ST-GCN). Advised by [Yongxiang Li](https://me.sjtu.edu.cn/teacher_directory1/liyongxiang.html), Associate Professor, Dept. of IE & Management, SJTU.
@@ -65,11 +66,12 @@ Thank you to everyone who has offered me assistance and feedback. When I was fal
 
 此前，我曾从事可信人工智能（特别是算法公平性）以及其他 LLM 相关课题的研究。我对探索其他研究方向也持开放态度。
 
-我的简历可在此处下载：[CV_en](files/CV_Hua_Tang_EN.pdf) \| [CV_zh](files/CV_Hua_Tang_CN.pdf)
+我的简历可在此处下载：[CV_en](files/CV_Hua_Tang_EN.pdf) \| [CV_zh](files/CV_Hua_Tang_CN.pdf)（1 页）。更完整版本：[CV_en 2 页](files/CV_Hua_Tang_EN_2p.pdf) \| [CV_zh 2 页](files/CV_Hua_Tang_CN_2p.pdf)。
 
 ## **精选经历**
 
-- **2024年7月 – 2025年6月**：百度研究实习生。导师：[颜令勇](https://yanlingyong.net/)，百度高级研究员。
+- **2026年4月 – 至今**：上海人工智能实验室研究实习生。跟踪前沿 LLM / LLM Agent 在生物安全方向的能力演进、评测基准与防护机制；构建覆盖毒性检验、结构稳定性、病毒与受体结合能力的综合评测流程；参与论文 [An Early Warning of Emerging Biosecurity Risks in Frontier LLMs](https://arxiv.org/abs/2607.18056)。
+- **2024年7月 – 2025年6月**：百度研究实习生。导师：[颜令勇](https://yanlingyong.net/)，百度高级研究员。负责对齐数据与模型微调，并开展基于智能体的多轮攻击方法研究，相关成果以第一作者形成文章。
 - **2023年6月 – 2024年4月**：远程研究实习（预训练 LLM 用于时间序列预测与算法公平性）。导师：[杜梦楠](https://mengnandu.com/)，新泽西理工学院 (NJIT) 数据科学系助理教授。
 - **2022年7月 – 2023年5月**：本科生研究员（高频量化交易的实证策略研究）。导师：[任桐鑫](http://www.baiyulan.org.cn/leader/15/)，上海交通大学学生创新中心助理教授。代码：[链接](https://github.com/Ytang520/Research_on_High-frequency_Quantitative_Trading)
 - **2023年3月 – 2023年9月**：本科生研究员（基于骨架的人体运动质量评估：改进型 ST-GCN）。导师：[李勇祥](https://me.sjtu.edu.cn/teacher_directory1/liyongxiang.html)，上海交通大学工业工程与管理系副教授。
