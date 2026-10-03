@@ -1,0 +1,27 @@
+{% include base_path %}
+{% assign vibe_diagram = site.data.vibe_diagrams[include.id] %}
+{% assign diagram_languages = 'en,zh' | split: ',' %}
+{% if vibe_diagram %}
+<figure class="vibe-diagram">
+  <div class="vibe-diagram__viewport">
+    {% for diagram_language in diagram_languages %}
+      {% assign file_key = 'file_' | append: diagram_language %}
+      {% assign alt_key = 'alt_' | append: diagram_language %}
+      {% assign width_key = 'width_' | append: diagram_language %}
+      {% assign height_key = 'height_' | append: diagram_language %}
+      {% assign diagram_file = vibe_diagram[file_key] | default: vibe_diagram.file %}
+      {% unless diagram_file %}{% assign diagram_file = include.id | append: '-' | append: diagram_language | append: '.svg' %}{% endunless %}
+      <a class="lang-{{ diagram_language }}" lang="{% if diagram_language == 'zh' %}zh-CN{% else %}en{% endif %}"{% if diagram_language == 'zh' %} style="display:none;"{% endif %} href="{{ base_path }}/assets/images/vibe-lab/{{ diagram_file }}" target="_blank" rel="noopener noreferrer"><img src="{{ base_path }}/assets/images/vibe-lab/{{ diagram_file }}" alt="{{ vibe_diagram[alt_key] | escape }}" width="{{ vibe_diagram[width_key] | default: vibe_diagram.width }}" height="{{ vibe_diagram[height_key] | default: vibe_diagram.height }}" loading="lazy" decoding="async"></a>
+    {% endfor %}
+  </div>
+  <figcaption>
+    {% for diagram_language in diagram_languages %}
+      {% assign file_key = 'file_' | append: diagram_language %}
+      {% assign diagram_file = vibe_diagram[file_key] | default: vibe_diagram.file %}
+      {% unless diagram_file %}{% assign diagram_file = include.id | append: '-' | append: diagram_language | append: '.svg' %}{% endunless %}
+      <a class="lang-{{ diagram_language }}"{% if diagram_language == 'zh' %} style="display:none;"{% endif %} href="{{ base_path }}/assets/images/vibe-lab/{{ diagram_file }}" target="_blank" rel="noopener noreferrer">{{ site.data.vibe_lab.full_image[diagram_language] }}</a>
+    {% endfor %}
+    {% if vibe_diagram.source %}<span class="vibe-diagram__source"><a href="{{ vibe_diagram.source | escape }}" target="_blank" rel="noopener noreferrer">{% include vibe-lab/text.html en=site.data.vibe_lab.source.en zh=site.data.vibe_lab.source.zh %}</a></span>{% endif %}
+  </figcaption>
+</figure>
+{% endif %}

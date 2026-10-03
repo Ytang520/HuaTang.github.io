@@ -1,0 +1,23 @@
+{% capture project_link_items %}
+  {% for project_link in site.data.vibe_lab.project_links %}
+    {% assign project_link_url = page[project_link.key] | default: '' | strip %}
+    {% if project_link_url != '' %}
+    {% assign link_label_en = project_link.en %}{% assign link_label_zh = project_link.zh %}
+    {% if project_link.key == 'download_url' %}
+      {% assign link_label_en = page.download_label_en | default: project_link.en %}{% assign link_label_zh = page.download_label_zh | default: project_link.zh %}
+    {% endif %}
+    <li><a href="{{ project_link_url | escape }}" target="_blank" rel="noopener noreferrer">{% include vibe-lab/text.html en=link_label_en zh=link_label_zh %}<span aria-hidden="true"> ↗</span></a></li>
+    {% endif %}
+  {% endfor %}
+{% endcapture %}
+{% assign project_link_items = project_link_items | strip %}
+{% if project_link_items != '' %}
+<details class="vibe-disclosure">
+  <summary>{% include vibe-lab/text.html en=site.data.vibe_lab.links.en zh=site.data.vibe_lab.links.zh %}</summary>
+  <div class="vibe-disclosure__body">
+    <ul class="vibe-links">{{ project_link_items }}</ul>
+    {% if page.download_note_en %}<p class="vibe-download-note">{% include vibe-lab/text.html en=page.download_note_en zh=page.download_note_zh %}</p>{% endif %}
+    {% if page.podcast_url and page.podcast_preview %}{% include vibe-lab/podcast-preview.html %}{% endif %}
+  </div>
+</details>
+{% endif %}

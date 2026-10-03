@@ -48,3 +48,12 @@
 </script>
 
 <!-- end custom head snippets -->
+{% if page.home_interests or page.vibe_index %}
+<link rel="stylesheet" href="{{ base_path }}/assets/css/card-art.css">
+{% endif %}
+{% if page.vibe_lab %}
+<link rel="stylesheet" href="{{ base_path }}/assets/css/vibe-lab.css">
+{% endif %}
+{% if page.home_interests %}
+<link rel="stylesheet" href="{{ base_path }}/assets/css/home-interests.css">
+{% endif %}

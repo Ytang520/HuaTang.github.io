@@ -1,0 +1,9 @@
+{% for skill in site.data.vibe_skills %}
+<details class="vibe-disclosure" id="{{ skill.id }}">
+  <summary>{% include vibe-lab/text.html en=skill.title_en zh=skill.title_zh %}</summary>
+  <div class="vibe-disclosure__body">
+    <p>{% include vibe-lab/text.html en=skill.description_en zh=skill.description_zh %}</p>
+    {% include vibe-lab/diagram.html id=skill.diagram %}
+  </div>
+</details>
+{% endfor %}

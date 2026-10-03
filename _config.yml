@@ -142,6 +142,13 @@ exclude:
   - config
   - gulpfile.js
   - log
+  - log.txt
+  - _planning
+  - .tools
+  - .validation
+  - .venv
+  - .uv-cache
+  - tools
   - node_modules
   - package.json
   - tmp
@@ -175,6 +182,9 @@ kramdown:
 
 # Collections
 collections:
+  vibe_projects:
+    output: true
+    permalink: /vibe-lab/:path/
   teaching:
     output: true
     permalink: /:collection/:path/
@@ -197,6 +207,17 @@ collections:
 
 # Defaults
 defaults:
+  - scope:
+      path: ""
+      type: vibe_projects
+    values:
+      layout: vibe-project
+      author_profile: true
+      vibe_lab: true
+      comments: false
+      share: false
+      related: false
+      read_time: false
   # _posts
   - scope:
       path: ""

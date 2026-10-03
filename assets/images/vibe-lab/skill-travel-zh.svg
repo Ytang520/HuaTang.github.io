@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="700" viewBox="0 0 1040 700" role="img" aria-labelledby="title desc" lang="zh-CN">
+<title id="title">China Travel MCP · 安装与接入</title><desc id="desc">检查现有安装，可用则复用，否则配置客户端、项目依赖与可见浏览器；构建并验证网关，再使用火车、航班、地图与打车工具。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#6c8599"/></marker></defs>
+<rect width="1040" height="700" rx="20" fill="#fff"/>
+<g font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif"><text x="44" y="49" text-anchor="start" font-size="27" font-weight="650" fill="#18344c">China Travel MCP · 安装与接入</text>
+<path d="M520 155 V185 H245 V230" fill="none" stroke="#6c8599" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M520 185 H775 V230" fill="none" stroke="#6c8599" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M785 320 V360" fill="none" stroke="#6c8599" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M245 320 V480 H520 V510" fill="none" stroke="#6c8599" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M785 450 V480 H520" fill="none" stroke="#6c8599" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M520 590 V623" fill="none" stroke="#6c8599" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<g data-flow-box="true">
+<rect x="310" y="85" width="420" height="70" rx="14" fill="#edf3fa" stroke="#b6c9df" stroke-width="1.5"/>
+<text x="520" y="127" text-anchor="middle" font-size="21" font-weight="500" fill="#243b53">检查现有安装</text>
+</g>
+<text x="245" y="213" text-anchor="middle" font-size="18" font-weight="500" fill="#52697c">已可用</text>
+<text x="775" y="213" text-anchor="middle" font-size="18" font-weight="500" fill="#52697c">需要配置</text>
+<g data-flow-box="true">
+<rect x="55" y="230" width="380" height="90" rx="14" fill="#e3f3ee" stroke="#8eb9aa" stroke-width="1.5"/>
+<text x="245" y="282" text-anchor="middle" font-size="21" font-weight="500" fill="#243b53">复用客户端配置</text>
+</g>
+<g data-flow-box="true">
+<rect x="585" y="230" width="400" height="90" rx="14" fill="#edf3fa" stroke="#b6c9df" stroke-width="1.5"/>
+<text x="785" y="268" text-anchor="middle" font-size="21" font-weight="500" fill="#243b53">选择 MCP 客户端</text>
+<text x="785" y="296" text-anchor="middle" font-size="21" font-weight="500" fill="#243b53">准备项目依赖</text>
+</g>
+<g data-flow-box="true">
+<rect x="585" y="360" width="400" height="90" rx="14" fill="#edf3fa" stroke="#b6c9df" stroke-width="1.5"/>
+<text x="785" y="398" text-anchor="middle" font-size="21" font-weight="500" fill="#243b53">配置 Edge 或 Chrome</text>
+<text x="785" y="426" text-anchor="middle" font-size="21" font-weight="500" fill="#243b53">可见窗口最小化运行</text>
+</g>
+<g data-flow-box="true">
+<rect x="270" y="510" width="500" height="80" rx="14" fill="#edf3fa" stroke="#b6c9df" stroke-width="1.5"/>
+<text x="520" y="543" text-anchor="middle" font-size="21" font-weight="500" fill="#243b53">按需构建 · 验证网关</text>
+<text x="520" y="571" text-anchor="middle" font-size="21" font-weight="500" fill="#243b53">配置 / 健康状态 / 工具检查</text>
+</g>
+<g data-flow-box="true">
+<rect x="155" y="623" width="730" height="55" rx="14" fill="#e3f3ee" stroke="#8eb9aa" stroke-width="1.5"/>
+<text x="520" y="657.5" text-anchor="middle" font-size="21" font-weight="500" fill="#243b53">火车 · 直达航班 · 地图 · 打车估价</text>
+</g>
+</g></svg>

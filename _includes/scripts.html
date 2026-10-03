@@ -1,4 +1,10 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
+{% if page.vibe_lab %}
+<script src="{{ base_path }}/assets/js/vibe-lab.js" defer></script>
+{% endif %}
+{% if page.home_interests %}
+<script src="{{ base_path }}/assets/js/home-interests.js" defer></script>
+{% endif %}
 
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}

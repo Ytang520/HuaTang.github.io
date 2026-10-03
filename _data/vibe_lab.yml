@@ -1,0 +1,46 @@
+intro:
+  en: "Small tools, working prototypes, and experiments in making ideas useful."
+  zh: "把想法做成可以使用的小工具、产品原型与实验。"
+all: { en: "All", zh: "全部" }
+projects: { en: "projects", zh: "个项目" }
+results: { en: "results", zh: "条结果" }
+filter_heading: { en: "Filter projects", zh: "标签筛选" }
+search: { en: "Search Vibe Lab", zh: "搜索 Vibe Lab" }
+search_placeholder: { en: "Title or summary", zh: "搜索标题或摘要" }
+search_help: { en: "Match keywords in English or Chinese titles and summaries. All keywords must match.", zh: "匹配中英文标题和摘要；用空格分隔的多个关键词需同时命中。" }
+clear_search: { en: "Clear search", zh: "清空搜索" }
+reset: { en: "Clear filters", zh: "清除筛选" }
+reset_all: { en: "Reset search and filters", zh: "重置搜索和筛选" }
+empty: { en: "No results match your search or filters.", zh: "暂无符合搜索或筛选条件的结果。" }
+pinned: { en: "Pinned", zh: "置顶" }
+back: { en: "Back to Vibe Lab", zh: "返回 Vibe Lab" }
+links: { en: "Project links", zh: "项目链接" }
+workflow: { en: "How it works", zh: "整体逻辑与流程图" }
+full_image: { en: "View full-size diagram", zh: "查看完整流程图" }
+source: { en: "Diagram reference on GitHub", zh: "GitHub 参考图" }
+video: { en: "Product demo", zh: "产品演示" }
+video_fallback: { en: "Open the demo video", zh: "打开演示视频" }
+facets:
+  - key: project_type
+    en: "Type"
+    zh: "类型"
+    options:
+      - { value: prototype, label: Prototype }
+      - { value: tool, label: Tool }
+  - key: source_model
+    en: "Source"
+    zh: "源码"
+    options:
+      - { value: closed_source, label: CloseSource }
+      - { value: open_source, label: OpenSource }
+  - key: status
+    en: "Status"
+    zh: "状态"
+    options:
+      - { value: ongoing, label: Ongoing }
+      - { value: maintenance, label: Maintenance }
+project_links:
+  - { key: repo_url, en: "GitHub repository", zh: "GitHub 仓库" }
+  - { key: release_url, en: "Release notes", zh: "版本说明" }
+  - { key: download_url, en: "Download for Windows", zh: "Windows 下载入口" }
+  - { key: podcast_url, en: "Listen on Xiaoyuzhou", zh: "在小宇宙收听" }

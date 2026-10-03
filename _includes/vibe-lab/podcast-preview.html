@@ -1,0 +1,6 @@
+{% include base_path %}
+<figure class="vibe-podcast-preview">
+  <a class="lang-en" lang="en" href="{{ page.podcast_url | escape }}" target="_blank" rel="noopener noreferrer"><img src="{{ base_path }}{{ page.podcast_preview | escape }}" width="1120" height="760" loading="lazy" decoding="async" alt="Xiaoyuzhou page for 毫无遗漏的哲学史, showing the podcast cover and episode list"></a>
+  <a class="lang-zh" lang="zh-CN" style="display:none;" href="{{ page.podcast_url | escape }}" target="_blank" rel="noopener noreferrer"><img src="{{ base_path }}{{ page.podcast_preview | escape }}" width="1120" height="760" loading="lazy" decoding="async" alt="《毫无遗漏的哲学史》小宇宙页面预览，展示节目封面与单集列表"></a>
+  <figcaption>{% include vibe-lab/text.html en="毫无遗漏的哲学史 · Xiaoyuzhou — click the preview to listen" zh="毫无遗漏的哲学史 · 小宇宙 — 点击预览前往收听" %}</figcaption>
+</figure>

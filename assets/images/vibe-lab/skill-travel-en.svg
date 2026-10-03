@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="700" viewBox="0 0 1040 700" role="img" aria-labelledby="title desc" lang="en">
+<title id="title">China Travel MCP · Installation</title><desc id="desc">Inspect an existing installation, reuse it if usable or configure the client, project dependencies and visible browser; build and verify the gateway before using train, flight, map and taxi tools.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#6c8599"/></marker></defs>
+<rect width="1040" height="700" rx="20" fill="#fff"/>
+<g font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif"><text x="44" y="49" text-anchor="start" font-size="27" font-weight="650" fill="#18344c">China Travel MCP · Installation</text>
+<path d="M520 155 V185 H245 V230" fill="none" stroke="#6c8599" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M520 185 H775 V230" fill="none" stroke="#6c8599" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M785 320 V360" fill="none" stroke="#6c8599" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M245 320 V480 H520 V510" fill="none" stroke="#6c8599" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M785 450 V480 H520" fill="none" stroke="#6c8599" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M520 590 V623" fill="none" stroke="#6c8599" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<g data-flow-box="true">
+<rect x="310" y="85" width="420" height="70" rx="14" fill="#edf3fa" stroke="#b6c9df" stroke-width="1.5"/>
+<text x="520" y="127" text-anchor="middle" font-size="21" font-weight="500" fill="#243b53">Inspect current installation</text>
+</g>
+<text x="245" y="213" text-anchor="middle" font-size="18" font-weight="500" fill="#52697c">Already usable</text>
+<text x="775" y="213" text-anchor="middle" font-size="18" font-weight="500" fill="#52697c">Setup required</text>
+<g data-flow-box="true">
+<rect x="55" y="230" width="380" height="90" rx="14" fill="#e3f3ee" stroke="#8eb9aa" stroke-width="1.5"/>
+<text x="245" y="282" text-anchor="middle" font-size="21" font-weight="500" fill="#243b53">Reuse client configuration</text>
+</g>
+<g data-flow-box="true">
+<rect x="585" y="230" width="400" height="90" rx="14" fill="#edf3fa" stroke="#b6c9df" stroke-width="1.5"/>
+<text x="785" y="268" text-anchor="middle" font-size="21" font-weight="500" fill="#243b53">Choose the MCP client</text>
+<text x="785" y="296" text-anchor="middle" font-size="21" font-weight="500" fill="#243b53">prepare project dependencies</text>
+</g>
+<g data-flow-box="true">
+<rect x="585" y="360" width="400" height="90" rx="14" fill="#edf3fa" stroke="#b6c9df" stroke-width="1.5"/>
+<text x="785" y="398" text-anchor="middle" font-size="21" font-weight="500" fill="#243b53">Configure Edge or Chrome</text>
+<text x="785" y="426" text-anchor="middle" font-size="21" font-weight="500" fill="#243b53">visible, minimized window</text>
+</g>
+<g data-flow-box="true">
+<rect x="270" y="510" width="500" height="80" rx="14" fill="#edf3fa" stroke="#b6c9df" stroke-width="1.5"/>
+<text x="520" y="543" text-anchor="middle" font-size="21" font-weight="500" fill="#243b53">Build as needed · verify gateway</text>
+<text x="520" y="571" text-anchor="middle" font-size="21" font-weight="500" fill="#243b53">Configuration / health / tool checks</text>
+</g>
+<g data-flow-box="true">
+<rect x="155" y="623" width="730" height="55" rx="14" fill="#e3f3ee" stroke="#8eb9aa" stroke-width="1.5"/>
+<text x="520" y="657.5" text-anchor="middle" font-size="21" font-weight="500" fill="#243b53">Train · direct flights · map · taxi estimates</text>
+</g>
+</g></svg>

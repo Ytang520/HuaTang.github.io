@@ -1,0 +1,13 @@
+{% assign card_excerpt = include.project.excerpt | strip_html | strip %}
+{% capture card_search %}{{ include.project.title }} {{ include.project.title_zh }} {{ card_excerpt }} {{ include.project.summary_zh }}{% endcapture %}
+<article class="vibe-card{% if include.pinned %} vibe-card--pinned{% endif %}" data-card-art data-vibe-entry data-kind="{{ include.project.kind | escape }}" data-vibe-search="{{ card_search | strip_newlines | escape }}" data-vibe-title="{{ include.project.title | escape }}"{% unless include.pinned %} data-vibe-project{% endunless %} data-project_type="{{ include.project.project_type | escape }}" data-source_model="{{ include.project.source_model | escape }}" data-status="{{ include.project.status | escape }}">
+  {% include card-art.html image=include.project.card_background %}
+  {% if include.pinned %}
+  <div class="vibe-pin" data-vibe-pin><i class="fas fa-thumbtack" aria-hidden="true"></i> {% include vibe-lab/text.html en=site.data.vibe_lab.pinned.en zh=site.data.vibe_lab.pinned.zh %}</div>
+  {% endif %}
+  <h2 class="vibe-card__title"><a href="{{ base_path }}{{ include.project.url }}">{% include vibe-lab/text.html en=include.project.title zh=include.project.title_zh %}</a></h2>
+  {% include vibe-lab/badges.html project=include.project interactive=include.interactive %}
+  {% if card_excerpt != '' %}
+  <p class="vibe-card__summary">{% include vibe-lab/text.html en=card_excerpt zh=include.project.summary_zh %}</p>
+  {% endif %}
+</article>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="660" viewBox="0 0 1040 660" role="img" aria-labelledby="title desc" lang="zh-CN">
+<title id="title">arXiv · 从检索到全文</title><desc id="desc">arXiv ID 直接定位论文；标题与主题走模糊检索；关键词检索先确认检索式，再获取结果、元数据与 PDF。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#6c8599"/></marker></defs>
+<rect width="1040" height="660" rx="20" fill="#fff"/>
+<g font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif"><text x="44" y="49" text-anchor="start" font-size="27" font-weight="650" fill="#18344c">arXiv · 从检索到全文</text>
+<path d="M520 160 V192 H195 V220" fill="none" stroke="#6c8599" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M520 192 V220" fill="none" stroke="#6c8599" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M520 192 H845 V220" fill="none" stroke="#6c8599" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M195 300 V340" fill="none" stroke="#6c8599" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M520 300 V340" fill="none" stroke="#6c8599" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M845 300 V340" fill="none" stroke="#6c8599" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M195 425 V468 H520 V510" fill="none" stroke="#6c8599" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M520 425 V510" fill="none" stroke="#6c8599" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M845 425 V468 H520" fill="none" stroke="#6c8599" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<g data-flow-box="true">
+<rect x="310" y="90" width="420" height="70" rx="14" fill="#edf3fa" stroke="#b6c9df" stroke-width="1.5"/>
+<text x="520" y="132" text-anchor="middle" font-size="21" font-weight="500" fill="#243b53">识别研究输入</text>
+</g>
+<g data-flow-box="true">
+<rect x="55" y="220" width="280" height="80" rx="14" fill="#edf3fa" stroke="#b6c9df" stroke-width="1.5"/>
+<text x="195" y="267" text-anchor="middle" font-size="21" font-weight="500" fill="#243b53">arXiv ID</text>
+</g>
+<g data-flow-box="true">
+<rect x="380" y="220" width="280" height="80" rx="14" fill="#edf3fa" stroke="#b6c9df" stroke-width="1.5"/>
+<text x="520" y="267" text-anchor="middle" font-size="21" font-weight="500" fill="#243b53">论文标题或主题</text>
+</g>
+<g data-flow-box="true">
+<rect x="705" y="220" width="280" height="80" rx="14" fill="#edf3fa" stroke="#b6c9df" stroke-width="1.5"/>
+<text x="845" y="267" text-anchor="middle" font-size="21" font-weight="500" fill="#243b53">精确关键词</text>
+</g>
+<g data-flow-box="true">
+<rect x="55" y="340" width="280" height="85" rx="14" fill="#edf3fa" stroke="#b6c9df" stroke-width="1.5"/>
+<text x="195" y="389.5" text-anchor="middle" font-size="21" font-weight="500" fill="#243b53">直接获取</text>
+</g>
+<g data-flow-box="true">
+<rect x="380" y="340" width="280" height="85" rx="14" fill="#edf3fa" stroke="#b6c9df" stroke-width="1.5"/>
+<text x="520" y="389.5" text-anchor="middle" font-size="21" font-weight="500" fill="#243b53">模糊检索</text>
+</g>
+<g data-flow-box="true">
+<rect x="705" y="340" width="280" height="85" rx="14" fill="#edf3fa" stroke="#b6c9df" stroke-width="1.5"/>
+<text x="845" y="375.5" text-anchor="middle" font-size="21" font-weight="500" fill="#243b53">确认检索式</text>
+<text x="845" y="403.5" text-anchor="middle" font-size="21" font-weight="500" fill="#243b53">再执行检索</text>
+</g>
+<g data-flow-box="true">
+<rect x="255" y="510" width="530" height="80" rx="14" fill="#e3f3ee" stroke="#8eb9aa" stroke-width="1.5"/>
+<text x="520" y="557" text-anchor="middle" font-size="21" font-weight="500" fill="#243b53">检查结果 · 元数据 · PDF</text>
+</g>
+<text x="520" y="630" text-anchor="middle" font-size="18" font-weight="500" fill="#52697c">批量获取支持中断后继续。</text>
+</g></svg>

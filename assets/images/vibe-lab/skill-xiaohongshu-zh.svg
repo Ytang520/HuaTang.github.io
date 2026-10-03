@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="740" viewBox="0 0 1040 740" role="img" aria-labelledby="title desc" lang="zh-CN">
+<title id="title">小红书 · 可见内容提取</title><desc id="desc">从关键词或笔记链接出发，检查访问与可见内容，搜索或打开笔记，按需读取顶层评论，再输出结构化内容；登录与验证由用户完成。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#6c8599"/></marker></defs>
+<rect width="1040" height="740" rx="20" fill="#fff"/>
+<g font-family="Segoe UI, Microsoft YaHei, PingFang SC, sans-serif"><text x="44" y="49" text-anchor="start" font-size="27" font-weight="650" fill="#18344c">小红书 · 可见内容提取</text>
+<path d="M270 155 V185 H520 V215" fill="none" stroke="#6c8599" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M770 155 V185 H520" fill="none" stroke="#6c8599" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M520 305 V335 H270 V375" fill="none" stroke="#6c8599" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M520 335 H770 V375" fill="none" stroke="#6c8599" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M270 455 V485 H520 V520" fill="none" stroke="#6c8599" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M770 455 V485 H520" fill="none" stroke="#6c8599" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M520 600 V640" fill="none" stroke="#6c8599" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<g data-flow-box="true">
+<rect x="100" y="85" width="340" height="70" rx="14" fill="#edf3fa" stroke="#b6c9df" stroke-width="1.5"/>
+<text x="270" y="127" text-anchor="middle" font-size="21" font-weight="500" fill="#243b53">关键词</text>
+</g>
+<g data-flow-box="true">
+<rect x="600" y="85" width="340" height="70" rx="14" fill="#edf3fa" stroke="#b6c9df" stroke-width="1.5"/>
+<text x="770" y="127" text-anchor="middle" font-size="21" font-weight="500" fill="#243b53">笔记链接</text>
+</g>
+<g data-flow-box="true">
+<rect x="250" y="215" width="540" height="90" rx="14" fill="#edf3fa" stroke="#b6c9df" stroke-width="1.5"/>
+<text x="520" y="253" text-anchor="middle" font-size="21" font-weight="500" fill="#243b53">检查访问状态与可见内容</text>
+<text x="520" y="281" text-anchor="middle" font-size="21" font-weight="500" fill="#243b53">由用户完成登录 / 验证</text>
+</g>
+<g data-flow-box="true">
+<rect x="100" y="375" width="340" height="80" rx="14" fill="#edf3fa" stroke="#b6c9df" stroke-width="1.5"/>
+<text x="270" y="422" text-anchor="middle" font-size="21" font-weight="500" fill="#243b53">搜索并选择笔记</text>
+</g>
+<g data-flow-box="true">
+<rect x="600" y="375" width="340" height="80" rx="14" fill="#edf3fa" stroke="#b6c9df" stroke-width="1.5"/>
+<text x="770" y="422" text-anchor="middle" font-size="21" font-weight="500" fill="#243b53">打开指定笔记</text>
+</g>
+<g data-flow-box="true">
+<rect x="220" y="520" width="600" height="80" rx="14" fill="#edf3fa" stroke="#b6c9df" stroke-width="1.5"/>
+<text x="520" y="553" text-anchor="middle" font-size="21" font-weight="500" fill="#243b53">提取可见正文与元数据</text>
+<text x="520" y="581" text-anchor="middle" font-size="21" font-weight="500" fill="#243b53">可选：顶层评论</text>
+</g>
+<g data-flow-box="true">
+<rect x="250" y="640" width="540" height="65" rx="14" fill="#e3f3ee" stroke="#8eb9aa" stroke-width="1.5"/>
+<text x="520" y="679.5" text-anchor="middle" font-size="21" font-weight="500" fill="#243b53">输出结构化内容</text>
+</g>
+</g></svg>

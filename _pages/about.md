@@ -3,6 +3,7 @@ permalink: /
 title: "About me"
 excerpt:
 author_profile: true
+home_interests: true
 redirect_from:
   - /about/
   - /about.html
@@ -29,31 +30,6 @@ My CV can be downloaded here: [CV_en](files/CV_Hua_Tang_EN.pdf) \| [CV_zh](files
 - **March 2023 – Sept. 2023**: Undergraduate Researcher (Skeleton-based Human Motion Quality Assessment via Improved ST-GCN). Advised by [Yongxiang Li](https://me.sjtu.edu.cn/teacher_directory1/liyongxiang.html), Associate Professor, Dept. of IE & Management, SJTU.
 - **June 2022 – Sept. 2022**: Undergraduate Researcher (Airline Fleet Allocation). Advised by [Yaoming Zhou](https://me.sjtu.edu.cn/teacher_directory1/zhouyaoming.html), Associate Professor, Dept. of IE & Management, SJTU.
 
-## **Blog & Podcast**
-
-Read my [blog](/year-archive/) for research ideas, works in progress, and notes.
-
-I also run a philosophy podcast translation project, bringing philosophical discussions to the Chinese-speaking audience. Check it out:
-
-- GitHub: [Podcast_translation](https://github.com/Ytang520/Podcast_translation)
-- Subscribe on [小宇宙FM](https://www.xiaoyuzhoufm.com/podcast/6993470f11391268fd6847a7) 🎙️
-
-## **Vibe-Coding Product Development**
-
-Recently, I have been experimenting with vibe-coding tools (e.g., Cursor, OpenCode) to realize some ideas I have always wanted to build but lacked the time or technical capacity to execute previously. The on-going projects are listed below. Feedback and suggestions are always welcome!
-
-[1] **Paper Polish Tools All-in-One**: A tool to polish research papers (currently optimized for AI conferences, aligned with my research focus).
-
-- File: [Google Drive](https://drive.google.com/drive/folders/1yQFFZZJz1xDxZ4xM5UER0SVckk28IP1W?usp=sharing)
-- Supported System: Windows (Not yet tested on other operating systems)
-- Version: 1.0 (Updated: 260312)
-
-I plan to develop many more projects in the future. Feel free to reach out if you would like to collaborate!
-
----
-
-Thank you to everyone who has offered me assistance and feedback. When I was falling, closing my eyes, and letting the astronomical gravity pull me down, wishing everyone would leave me be—it was your kindness that lifted me up. I am deeply grateful.
-
 </div>
 
 <div class="lang-zh" style="display:none;" markdown="1">
@@ -77,28 +53,19 @@ Thank you to everyone who has offered me assistance and feedback. When I was fal
 - **2023年3月 – 2023年9月**：本科生研究员（基于骨架的人体运动质量评估：改进型 ST-GCN）。导师：[李勇祥](https://me.sjtu.edu.cn/teacher_directory1/liyongxiang.html)，上海交通大学工业工程与管理系副教授。
 - **2022年6月 – 2022年9月**：本科生研究员（航空公司机队分配优化）。导师：[周耀明](https://me.sjtu.edu.cn/teacher_directory1/zhouyaoming.html)，上海交通大学工业工程与管理系副教授。
 
-## **博客 & 播客**
+</div>
 
-欢迎访问我的[博客](/year-archive/)，阅读我的研究想法、阶段性成果和学习笔记。
-
-我同时在运营一个哲学播客翻译项目，致力于将优质的哲学讨论带给中文听众。欢迎了解与订阅：
-
-- GitHub：[Podcast_translation](https://github.com/Ytang520/Podcast_translation)
-- 在[小宇宙FM](https://www.xiaoyuzhoufm.com/podcast/6993470f11391268fd6847a7)上订阅 🎙️
-
-## **Vibe-Coding 产品开发**
-
-我现在也在尝试通过 vibe-coding 工具 (例如 Cursor, OpenCode) 来实现一些自己以前一直想做，但限于时间和技术能力没办法实现的构想，目前正在开发的项目如下。欢迎提出各种意见和建议：
-
-[1] **Paper Polish Tools All-in-One**：一款用于润色学术论文的工具（目前主要针对 AI 领域的会议论文，这也与我的研究方向相契合）。
-
-- 获取链接：[Google Drive](https://drive.google.com/drive/folders/1yQFFZZJz1xDxZ4xM5UER0SVckk28IP1W?usp=sharing)
-- 支持系统：Windows (暂未在其他系统上测试)
-- 版本：1.0 (更新日期：260312)
-
-未来我还计划开发许多其他有趣的项目。如果您有合作意向，随时欢迎与我联系！
+{% include home-interests.html %}
 
 ---
+
+<div class="lang-en" markdown="1">
+
+Thank you to everyone who has offered me assistance and feedback. When I was falling, closing my eyes, and letting the astronomical gravity pull me down, wishing everyone would leave me be—it was your kindness that lifted me up. I am deeply grateful.
+
+</div>
+
+<div class="lang-zh" style="display:none;" markdown="1">
 
 感谢所有给予我帮助和反馈的人。曾经我在下坠，闭上眼睛任凭重力把我拉下去，希望所有人都离开我。但是，是你们的善意把我托了起来。衷心感谢，希望你们一切平安。
 

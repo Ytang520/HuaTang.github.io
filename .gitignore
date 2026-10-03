@@ -1,4 +1,12 @@
 _site/
 nul
 assets/css/main_test.css
+.tools/
+.validation/
+.venv/
+.uv-cache/
+.sass-cache/
+.jekyll-cache/
+log.txt
+_planning/
 

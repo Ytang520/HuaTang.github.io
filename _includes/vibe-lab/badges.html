@@ -1,0 +1,17 @@
+<div class="vibe-tags">
+  {% if include.project.kind == 'experience' %}
+  <span class="vibe-tag vibe-tag--experience">Experience</span>
+  {% else %}
+    {% for badge_facet in site.data.vibe_lab.facets %}
+      {% for badge_option in badge_facet.options %}
+        {% if include.project[badge_facet.key] == badge_option.value %}
+          {% if include.interactive %}
+          <button type="button" class="vibe-tag vibe-tag--{{ badge_option.value }}" data-vibe-filter="{{ badge_facet.key }}" data-vibe-value="{{ badge_option.value }}" aria-pressed="false" disabled>{{ badge_option.label | escape }}</button>
+          {% else %}
+          <span class="vibe-tag vibe-tag--{{ badge_option.value }}">{{ badge_option.label | escape }}</span>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  {% endif %}
+</div>

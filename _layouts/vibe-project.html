@@ -1,0 +1,46 @@
+---
+layout: default
+---
+{% include base_path %}
+<div id="main" role="main">
+  {% include sidebar.html %}
+  <article class="page vibe-lab vibe-detail">
+    <div class="page__inner-wrap">
+      <a class="vibe-back" href="{{ base_path }}/vibe-lab/">&larr; {% include vibe-lab/text.html en=site.data.vibe_lab.back.en zh=site.data.vibe_lab.back.zh %}</a>
+      <header>
+        <h1 class="page__title">{% include vibe-lab/text.html en=page.title zh=page.title_zh %}</h1>
+        {% include vibe-lab/badges.html project=page %}
+        {% assign detail_excerpt = page.excerpt | strip_html | strip %}
+        {% if detail_excerpt != '' %}
+        <p class="vibe-intro">{% include vibe-lab/text.html en=detail_excerpt zh=page.summary_zh %}</p>
+        {% endif %}
+      </header>
+      {% if page.platform_en %}<p class="vibe-note vibe-platform">{% include vibe-lab/text.html en=page.platform_en zh=page.platform_zh %}</p>{% endif %}
+      <div class="page__content vibe-content">
+        {% include vibe-lab/project-links.html %}
+        {% if page.workflow %}
+        <details class="vibe-disclosure">
+          <summary>{% include vibe-lab/text.html en=site.data.vibe_lab.workflow.en zh=site.data.vibe_lab.workflow.zh %}</summary>
+          <div class="vibe-disclosure__body">
+            <p>{% include vibe-lab/text.html en=page.workflow_intro_en zh=page.workflow_intro_zh %}</p>
+            {% include vibe-lab/diagram.html id=page.workflow %}
+            {% if page.workflow_note_en %}<p class="vibe-note">{% include vibe-lab/text.html en=page.workflow_note_en zh=page.workflow_note_zh %}</p>{% endif %}
+          </div>
+        </details>
+        {% endif %}
+        {{ content }}
+        {% assign demo_url = page.video_url | default: '' | strip %}
+        {% assign demo_poster = page.video_poster | default: '' | strip %}
+        {% if demo_url != '' %}
+        <details class="vibe-disclosure">
+          <summary>{% include vibe-lab/text.html en=site.data.vibe_lab.video.en zh=site.data.vibe_lab.video.zh %}</summary>
+          <div class="vibe-disclosure__body">
+            <video class="vibe-video" controls preload="none"{% if demo_poster != '' %} poster="{% unless demo_poster contains '://' %}{{ base_path }}{% endunless %}{{ demo_poster | escape }}"{% endif %} src="{% unless demo_url contains '://' %}{{ base_path }}{% endunless %}{{ demo_url | escape }}"></video>
+            <p><a href="{% unless demo_url contains '://' %}{{ base_path }}{% endunless %}{{ demo_url | escape }}">{% include vibe-lab/text.html en=site.data.vibe_lab.video_fallback.en zh=site.data.vibe_lab.video_fallback.zh %}</a></p>
+          </div>
+        </details>
+        {% endif %}
+      </div>
+    </div>
+  </article>
+</div>

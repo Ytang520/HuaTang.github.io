@@ -1,0 +1,65 @@
+{
+  "skill-arxiv": {
+    "width": 1040,
+    "height": 660,
+    "alt_en": "An arXiv ID retrieves a paper directly; titles and topics use fuzzy search; keyword searches require query confirmation before results, metadata, and PDFs.",
+    "alt_zh": "arXiv ID 直接定位论文；标题与主题走模糊检索；关键词检索先确认检索式，再获取结果、元数据与 PDF。"
+  },
+  "skill-travel": {
+    "width": 1040,
+    "height": 700,
+    "alt_en": "Inspect an existing installation, reuse it if usable or configure the client, project dependencies and visible browser; build and verify the gateway before using train, flight, map and taxi tools.",
+    "alt_zh": "检查现有安装，可用则复用，否则配置客户端、项目依赖与可见浏览器；构建并验证网关，再使用火车、航班、地图与打车工具。"
+  },
+  "skill-scholar": {
+    "width": 1040,
+    "height": 640,
+    "alt_en": "Check browser access, resolve login or verification manually if needed, route the task to search, citation exploration, full text or export, and return structured results.",
+    "alt_zh": "检查浏览器访问状态，必要时由用户完成登录或验证，再路由至搜索、引用追踪、全文入口或导出，输出结构化结果。"
+  },
+  "skill-review": {
+    "width": 1040,
+    "height": 850,
+    "alt_en": "Define scope, collect and deduplicate, screen titles and abstracts, optionally check the first two PDF pages, read selected papers in full, then synthesize the review and reading recommendations.",
+    "alt_zh": "确定范围，收集去重，筛选标题和摘要，可选结合 PDF 前两页复筛，精读入选论文，最后形成综述和推荐阅读。"
+  },
+  "skill-pdf": {
+    "width": 1040,
+    "height": 590,
+    "alt_en": "Identify the task and document type, select creation, extraction, editing, forms or OCR, process the document and validate the output.",
+    "alt_zh": "识别任务与文档类型，选择新建、提取、编辑、表单或 OCR，处理文档并验证输出。"
+  },
+  "skill-xiaohongshu": {
+    "width": 1040,
+    "height": 740,
+    "alt_en": "Start from keywords or a note link, inspect access and visible content, search or open the note, optionally read top-level comments, then return structured content. Login and verification require user action.",
+    "alt_zh": "从关键词或笔记链接出发，检查访问与可见内容，搜索或打开笔记，按需读取顶层评论，再输出结构化内容；登录与验证由用户完成。"
+  },
+  "paper-polish": {
+    "file": "paperpolish-product-intro.png",
+    "source": "https://github.com/Ytang520/paper-polish_interactive_product/blob/main/docs/assets/paperpolish-product-intro.png",
+    "width": 1672,
+    "height": 941,
+    "alt_en": "PaperPolish README illustration: compare source text and polished output, select editing requirements, and iterate from input through polishing, feedback, and completion.",
+    "alt_zh": "PaperPolish README 介绍图：并排查看原文与润色结果，勾选修改要求，按输入原文、AI 润色、反馈调整、确认定稿的流程迭代。"
+  },
+  "podcast": {
+    "file": "podcast-workflow.png",
+    "source": "https://github.com/Ytang520/Podcast_translation/blob/main/resources/presentation_flowchart.png",
+    "width": 1024,
+    "height": 707,
+    "alt_en": "Original podcast workflow: transcription, terminology-aware translation and summarization, voice synthesis, and Chinese audio output.",
+    "alt_zh": "播客原始流程图：转写、结合术语的翻译与总结、语音合成及中文音频输出。"
+  },
+  "cn-travel": {
+    "file_en": "cn-travel-workflow-v2-en.png",
+    "file_zh": "cn-travel-workflow-v2-zh.png",
+    "width": 1536,
+    "height": 1024,
+    "width_zh": 1536,
+    "height_zh": 1024,
+    "source": "https://github.com/Ytang520/China-Travel-Planning-MCPs-All-in-One/blob/main/docs/assets/workflow.png",
+    "alt_en": "An agent uses one MCP gateway for five domains: trains, flights, hotels, maps and taxi estimates. Map lookup and subway, bus and driving routes share Amap. Results return to the agent for a travel plan; a separate agent skill handles troubleshooting.",
+    "alt_zh": "Agent 通过一个 MCP 网关接入火车、航班、酒店、地图和打车估价五个域。地图查询与地铁、公交、驾车路径规划共用高德 MCP。结果返回 Agent 形成出行方案，另由 Agent skill 执行排障。"
+  }
+}

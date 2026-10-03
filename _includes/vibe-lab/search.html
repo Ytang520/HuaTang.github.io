@@ -1,0 +1,7 @@
+<div class="vibe-search" data-vibe-search-controls role="search" hidden>
+  <label class="vibe-sr-only" for="vibe-search-input">{% include vibe-lab/text.html en=site.data.vibe_lab.search.en zh=site.data.vibe_lab.search.zh %}</label>
+  <svg class="vibe-search__icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m16 16 4.5 4.5"></path></svg>
+  <input id="vibe-search-input" class="vibe-search__input" data-vibe-query type="search" autocomplete="off" spellcheck="false" aria-controls="vibe-results" aria-describedby="vibe-search-help" placeholder="{{ site.data.vibe_lab.search_placeholder.en | escape }}" data-placeholder-en="{{ site.data.vibe_lab.search_placeholder.en | escape }}" data-placeholder-zh="{{ site.data.vibe_lab.search_placeholder.zh | escape }}">
+  <button class="vibe-search__clear" type="button" data-vibe-clear-search hidden><span aria-hidden="true">&times;</span><span class="vibe-sr-only">{% include vibe-lab/text.html en=site.data.vibe_lab.clear_search.en zh=site.data.vibe_lab.clear_search.zh %}</span></button>
+  <span id="vibe-search-help" class="vibe-sr-only">{% include vibe-lab/text.html en=site.data.vibe_lab.search_help.en zh=site.data.vibe_lab.search_help.zh %}</span>
+</div>

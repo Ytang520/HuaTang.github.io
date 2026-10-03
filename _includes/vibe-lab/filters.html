@@ -1,0 +1,19 @@
+<div class="vibe-lab vibe-sidebar" data-vibe-filters hidden>
+  <details class="vibe-filters" data-vibe-filter-panel open>
+    <summary>{% include vibe-lab/text.html en=site.data.vibe_lab.filter_heading.en zh=site.data.vibe_lab.filter_heading.zh %}</summary>
+    <div class="vibe-filters__body">
+      {% for facet in site.data.vibe_lab.facets %}
+      <fieldset class="vibe-filter-group" data-vibe-group="{{ facet.key }}">
+        <legend>{% include vibe-lab/text.html en=facet.en zh=facet.zh %}</legend>
+        <div class="vibe-filter-options">
+          <button type="button" class="vibe-filter" data-vibe-filter="{{ facet.key }}" data-vibe-value="all" aria-pressed="true" aria-controls="vibe-results">{% include vibe-lab/text.html en=site.data.vibe_lab.all.en zh=site.data.vibe_lab.all.zh %}</button>
+          {% for option in facet.options %}
+          <button type="button" class="vibe-filter" data-vibe-filter="{{ facet.key }}" data-vibe-value="{{ option.value }}" aria-pressed="false" aria-controls="vibe-results">{{ option.label | escape }}</button>
+          {% endfor %}
+        </div>
+      </fieldset>
+      {% endfor %}
+      <div class="vibe-filter-footer"><button type="button" class="vibe-reset" data-vibe-reset>{% include vibe-lab/text.html en=site.data.vibe_lab.reset.en zh=site.data.vibe_lab.reset.zh %}</button></div>
+    </div>
+  </details>
+</div>

@@ -1,0 +1,36 @@
+- id: arxiv
+  title_en: "arXiv"
+  title_zh: "arXiv"
+  description_en: "Find papers by title, topic, exact keywords, or arXiv ID, then retrieve metadata and PDFs. Keyword searches use an explicit query-confirmation step; batch retrieval supports resuming interrupted work."
+  description_zh: "通过论文名称、研究主题、精确关键词或 arXiv ID 检索论文，获取元数据与 PDF。关键词检索先确认检索式，批量获取支持中断后继续。"
+  diagram: skill-arxiv
+- id: china-travel-installation
+  title_en: "China Travel MCP Installation"
+  title_zh: "China Travel MCP 安装"
+  description_en: "Prepare China-Travel-Planning-MCPs-All-in-One for an agent: check an existing installation, configure the chosen MCP client and local dependencies, then verify train, flight, map, and taxi capabilities."
+  description_zh: "为 Agent 接入 China-Travel-Planning-MCPs-All-in-One：检查现有安装，配置所选 MCP 客户端及项目依赖，再验证火车、航班、地图和打车能力。"
+  diagram: skill-travel
+- id: google-scholar
+  title_en: "Google Scholar"
+  title_zh: "Google Scholar"
+  description_en: "A coordinated workflow for paper search, advanced filters, cited-by exploration, pagination, full-text links, citation export, and troubleshooting. Browser and access checks precede the relevant operation."
+  description_zh: "覆盖论文搜索、高级筛选、引用追踪、翻页、全文入口、引用导出与排障。先检查浏览器和访问状态，再进入对应操作流程。"
+  diagram: skill-scholar
+- id: literature-review
+  title_en: "Literature Review"
+  title_zh: "文献综述"
+  description_en: "Turn a research question into a staged literature review: collect and deduplicate papers, screen titles and abstracts, optionally check the first two PDF pages, read selected papers in full, then synthesize a report and reading recommendations."
+  description_zh: "从研究问题出发，分阶段收集与去重论文、筛选标题和摘要，按需结合 PDF 前两页复筛，精读入选论文，最后形成综述与推荐阅读。"
+  diagram: skill-review
+- id: pdf
+  title_en: "PDF"
+  title_zh: "PDF"
+  description_en: "A practical PDF workflow for creating documents, extracting text and tables, merging or editing pages, filling forms, and making scanned pages searchable with OCR. Validate the output against the original task."
+  description_zh: "处理 PDF 新建、文本与表格提取、页面合并和编辑、表单填写及扫描件 OCR，并围绕原始任务验证输出结果。"
+  diagram: skill-pdf
+- id: xiaohongshu
+  title_en: "Xiaohongshu · Chrome DevTools"
+  title_zh: "小红书 · Chrome DevTools"
+  description_en: "Search notes or open a supplied link, then extract visible text and metadata through the browser. Top-level comments are optional; login or verification prompts require user interaction before continuing."
+  description_zh: "通过关键词搜索笔记或打开指定链接，在浏览器中提取可见正文与元数据。按需获取顶层评论；遇到登录或验证要求时，由用户完成后继续。"
+  diagram: skill-xiaohongshu

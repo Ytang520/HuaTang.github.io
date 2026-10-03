@@ -1,0 +1,5 @@
+<a class="home-interests__media-link" href="{{ include.url | escape }}" target="_blank" rel="noopener noreferrer">
+  <img class="lang-en" lang="en" src="{{ base_path }}{{ include.image | escape }}" width="{{ include.width }}" height="{{ include.height }}" alt="{{ include.alt_en | escape }}" loading="lazy" decoding="async">
+  <img class="lang-zh" lang="zh-CN" style="display:none;" src="{{ base_path }}{{ include.image | escape }}" width="{{ include.width }}" height="{{ include.height }}" alt="{{ include.alt_zh | escape }}" loading="lazy" decoding="async">
+  <span>{% include vibe-lab/text.html en=include.title_en zh=include.title_zh %} <span aria-hidden="true">↗</span></span>
+</a>

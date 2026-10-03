@@ -1,0 +1,62 @@
+{% include base_path %}
+{% assign home_stuff = site.data.home_interests %}
+{% assign home_podcast = site.vibe_projects | where: 'slug', 'podcast-translation' | first %}
+{% assign home_podcast_diagram = site.data.vibe_diagrams.podcast %}
+<section class="home-interests" data-home-interests aria-labelledby="home-interests-title" markdown="0">
+  <h2 id="home-interests-title">{% include vibe-lab/text.html en=home_stuff.title.en zh=home_stuff.title.zh %}</h2>
+  <div class="home-interests__choices" data-home-choices hidden>
+    {% for category in home_stuff.categories %}
+    <button class="home-interests__choice" id="home-choice-{{ category.id }}" type="button" data-card-art data-home-choice aria-expanded="false" aria-controls="home-panel-{{ category.id }}">
+      {% include card-art.html image=category.background %}
+      <span class="home-interests__choice-title">{% include vibe-lab/text.html en=category.title_en zh=category.title_zh %}</span>
+      <span class="home-interests__teaser">{% include vibe-lab/text.html en=category.teaser_en zh=category.teaser_zh %}</span>
+      <svg class="home-interests__chevron" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="m6 9 6 6 6-6"/></svg>
+    </button>
+    {% endfor %}
+  </div>
+  {% for category in home_stuff.categories %}
+  <details class="home-interests__panel" id="home-panel-{{ category.id }}" data-home-panel name="home-interests">
+    <summary>{% include vibe-lab/text.html en=category.title_en zh=category.title_zh %}</summary>
+    <div class="home-interests__body">
+      <p class="home-interests__intro">{% include vibe-lab/text.html en=category.intro_en zh=category.intro_zh %}</p>
+      {% case category.id %}
+      {% when 'product' %}
+      <div class="home-interests__products">
+        {% for project_slug in home_stuff.products %}
+        {% assign home_project = site.vibe_projects | where: 'slug', project_slug | first %}
+        {% if home_project %}
+        <a class="home-interests__project" data-card-art href="{{ base_path }}{{ home_project.url }}">
+          {% include card-art.html image=home_project.card_background %}
+          <h3>{% include vibe-lab/text.html en=home_project.title zh=home_project.title_zh %}</h3>
+          {% assign home_project_excerpt = home_project.excerpt | strip_html | strip %}
+          <p>{% include vibe-lab/text.html en=home_project_excerpt zh=home_project.summary_zh %}</p>
+          <span class="home-interests__more">{% include vibe-lab/text.html en="Explore project" zh="了解这个作品" %} <span aria-hidden="true">&rarr;</span></span>
+        </a>
+        {% endif %}
+        {% endfor %}
+      </div>
+      {% when 'podcast' %}
+      {% if home_podcast %}
+      <div class="home-interests__media">
+        {% include home-media-link.html url=home_podcast.podcast_url image=home_podcast.podcast_preview width=1120 height=760 alt_en="Xiaoyuzhou page for 毫无遗漏的哲学史, with its cover and episode list" alt_zh="《毫无遗漏的哲学史》小宇宙节目封面与单集列表" title_en="Listen on Xiaoyuzhou" title_zh="在小宇宙收听" %}
+        {% capture home_workflow_image %}/assets/images/vibe-lab/{{ home_podcast_diagram.file }}{% endcapture %}
+        {% include home-media-link.html url=home_podcast.repo_url image=home_workflow_image width=home_podcast_diagram.width height=home_podcast_diagram.height alt_en=home_podcast_diagram.alt_en alt_zh=home_podcast_diagram.alt_zh title_en="Translation workflow on GitHub" title_zh="在 GitHub 了解翻译工作流" %}
+      </div>
+      {% endif %}
+      {% when 'blog' %}
+      {% assign home_latest_post = site.posts | sort: 'date' | last %}
+      {% if home_latest_post %}
+      <a class="home-interests__post" data-card-art href="{{ base_path }}{{ home_latest_post.url }}">
+        {% include card-art.html image=category.background %}
+        <span class="home-interests__post-meta">{% include vibe-lab/text.html en="Latest post" zh="最近更新" %} &middot; <time datetime="{{ home_latest_post.date | date: '%Y-%m-%d' }}">{{ home_latest_post.date | date: '%Y-%m-%d' }}</time></span>
+        <h3>{% include vibe-lab/text.html en=home_latest_post.title zh=home_latest_post.title_zh %}</h3>
+        <span class="home-interests__more">{% include vibe-lab/text.html en="Read post" zh="阅读文章" %} <span aria-hidden="true">&rarr;</span></span>
+      </a>
+      {% else %}
+      <a href="{{ base_path }}/year-archive/">{% include vibe-lab/text.html en="Visit the blog" zh="去博客看看" %} &rarr;</a>
+      {% endif %}
+      {% endcase %}
+    </div>
+  </details>
+  {% endfor %}
+</section>

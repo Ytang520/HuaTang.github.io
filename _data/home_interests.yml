@@ -1,0 +1,32 @@
+title:
+  en: "Projects I'm interested in"
+  zh: "一些出于兴趣的项目"
+categories:
+  - id: product
+    background: product
+    title_en: "Product"
+    title_zh: "产品"
+    teaser_en: "Little tools"
+    teaser_zh: "动手做点东西"
+    intro_en: "Small tools inspired by things I want to make easier, from planning trips to research and writing. Here are a few from my Vibe Lab."
+    intro_zh: "把自己想解决的问题做成小工具，从出行规划到科研与写作。这里是 Vibe Lab 中的几个小作品。"
+  - id: podcast
+    background: podcast
+    title_en: "Podcast"
+    title_zh: "播客"
+    teaser_en: "Ideas to listen to"
+    teaser_zh: "换个方式听世界"
+    intro_en: "I translate a philosophy podcast into Chinese, and share the workflow behind it: transcription, terminology, translation, and speech synthesis."
+    intro_zh: "把哲学播客译成中文，也分享背后从转录、术语整理到翻译与语音合成的工作流。"
+  - id: blog
+    background: blog
+    title_en: "Blog"
+    title_zh: "博客"
+    teaser_en: "Notes along the way"
+    teaser_zh: "随手记下的想法"
+    intro_en: "Research ideas, things I enjoy, and notes along the way. Here is my latest post."
+    intro_zh: "写下研究中的想法、喜欢的东西，以及一路上的随想。这是最近的一篇。"
+products:
+  - cn-travel-mcp
+  - research-working-skills
+  - paper-polish
